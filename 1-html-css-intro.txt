@@ -1,0 +1,2 @@
+html = hypertext markup language
+bahasa standar yg digunakan u/ membuat website

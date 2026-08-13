@@ -1,0 +1,19 @@
+.text-align{
+  text-align: center;
+} 
+.text-decoration{
+  text-decoration:line-through;
+}
+.text-transfrom{
+  text-transfrom:capitalize;
+}
+.line-height{
+  line-height: 30px;
+}
+.word-spacing{
+  word-spacing: 20px;
+}
+.letter-spacing{
+  letter-spacing: 20px;
+}
+

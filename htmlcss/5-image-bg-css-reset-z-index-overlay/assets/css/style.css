@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0; 
+  /* kalau g dikasih border-box aslinya adalah content-box*/
+  box-sizing: border-box;
+}
+
+body{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIu524KjHn7FgeZelNGg5Lw3kUSrwHW0635fJthaKXS33LdMJaftHG0Uxl&s=10');
+  /* background: url('../images/Gholamreza\ Aqajade.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+} 
+
+.overlay{
+  width: 100%;
+  height: 100%; 
+  background-color: black;
+  position: fixed;
+  opacity: .6;
+  z-index: -1;
+}
+
+.kotak-border-box{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  box-sizing: border-box;
+  padding-inline: 10px;
+}
+
+.kotak-content-box{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  box-sizing: content-box;
+  padding-inline: 10px;
+}
