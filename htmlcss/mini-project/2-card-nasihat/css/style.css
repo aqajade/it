@@ -1,0 +1,50 @@
+/* CSS RESET SI PENGHAPUS PENYAQIT */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  background-color: rgb(250, 249, 248);
+  border: solid 1px rgb(255, 94, 0);
+  border-radius: 10px;
+  padding-inline: 16px;
+  padding-block: 20px; 
+  width: 250px;
+  transition: 300ms;
+  /* jarakin antar p di card */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card:hover{
+  box-shadow: 0px 0px 20px 0px rgb(255, 94, 0);  
+}
+.card p:nth-child(1){
+  text-align: left;
+  font-style: italic;
+}
+.card p:nth-child(2){
+  font-size: 14px;
+}
+body{
+  font-family: "Elms Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  gap: 10px;
+}
+h1{
+  color: rgb(255, 94, 0);
+  margin-bottom: 16px;
+}
+p {
+  line-height: 15px;
+  color: rgb(255, 94, 0);
+}
+/* mengambil anak kandung saja */
+body > p {
+  font-size: 14px;
+}
