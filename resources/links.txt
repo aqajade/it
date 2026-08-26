@@ -3,3 +3,7 @@ link card figma:
   https://www.figma.com/design/GzzP79DlijDX97hVGpccva/cards-figma?m=auto&t=vzJMpBU2pIqPr9eB-1
   v2 
   https://www.figma.com/design/ncxAiIsWFUUMBbbCIz6zJ9/Cards--Community-?node-id=1-391&p=f&t=Ee9GknYyy4ornHVA-0
+
+
+google fonts:
+  https://fonts.google.com
