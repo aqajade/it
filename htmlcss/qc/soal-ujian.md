@@ -18,3 +18,4 @@ fungsi font-weight: mengubah ketebalan font, valuenya angka saja, contoh 100, 50
 fungsi font-style: mengubah gaya font, contohnya italic, oblique
 1 angka di tailwind = 4px
 baris ini gausah .. lh,ls,ws,ta,td,tst 
+
