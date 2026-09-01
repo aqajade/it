@@ -1,0 +1,65 @@
+body{background-color: red;}
+.induk-relative{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  margin-inline: auto;
+  border-radius: 50%;
+  position: relative;
+}
+.elemen-absolute{
+  background-color: yellow;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); 
+}
+.tugas1{
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+.tugas2{
+  background-color: black;
+  width: 20px; 
+  height: 20px;
+  position: absolute;
+  left: 50%; 
+  bottom: 0; 
+  transform: translate(-50%,50%); 
+}
+.induk{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin-inline: auto;
+  position: relative;
+  overflow: hidden;
+}
+.anak{
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 50%; 
+  transform: translate(-50%,-50%);  
+  border-radius: 50%;
+}
+.anak-kiri-bawah{
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  left: 0%; 
+  transform: translate(-50%,50%);  
+  border-radius: 50%;
+}

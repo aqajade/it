@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>absolute positioning</h1>
+  <p>penempatan elemen yang melenceng dari elemen induknya yang relative berdasarkan trbl (top right bottom left)</p>
+
+  <div class="induk-relative">
+    <div class="elemen-absolute"></div>
+    <div class="tugas1"></div>
+    <div class="tugas2"></div>
+  </div>
+
+  <!-- 
+  menengahkan elemen tanpa flex dan grid:
+  rata kiri kanan saja:
+    left50% dan translateX-50%
+  rata atas bawah saja
+    top50% dan translateY-50%
+  persis di tengah
+    top50% left50% translate-50%,-50%
+
+  tugas 1, rata atas bawah tanpa px, dari kiri 15px
+  tugas 2, rata kiri kanan tanpa px, ujung bawah separo dalam separo luar
+  -->
+
+  <h2>Overflow</h2>
+  <p>penyesuaian induk elemen agar elemen anaknya terpotong saat melampaui ukuran induknya</p>
+  <div class="induk">
+    <div class="anak"></div>
+    <div class="anak-kiri-bawah"></div>
+  </div>
+
+</body>
+</html>

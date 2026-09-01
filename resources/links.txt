@@ -2,10 +2,23 @@ tailwind terupdate:
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 link card figma:
-  v1
+  v0
   https://www.figma.com/design/GzzP79DlijDX97hVGpccva/cards-figma?m=auto&t=vzJMpBU2pIqPr9eB-1
+  v1 
+  https://www.figma.com/design/ngU6xG9XO1wHM94a86Ayhf/100-Free-UI-Card-Template--Community-?node-id=1-517&t=ovv1jvKFPpuO8bT5-0 
   v2 - mas koemis
   https://www.figma.com/design/ncxAiIsWFUUMBbbCIz6zJ9/Cards--Community-?node-id=1-391&p=f&t=Ee9GknYyy4ornHVA-0
 
 google fonts:
   https://fonts.google.com
+
+font inter:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+
+khusus nizar windows 8 
+node:js 
+https://nodejs.org/id/download/archive/v12.22.12
