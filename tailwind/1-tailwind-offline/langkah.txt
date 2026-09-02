@@ -1,11 +1,13 @@
 npm init -y
 npm i tailwindcss @tailwindcss/cli
 di folder tailwind offline buat folder src dalamnya bikin input.css
-di folder css buat file input.css isinya:
+file input.css isinya:
 @import "tailwindcss";
+
 paste di package.json: 
-  "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+
 language mode ya diubah jd tailwind css aja biar g error
