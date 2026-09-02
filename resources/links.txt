@@ -8,6 +8,8 @@ link card figma:
   https://www.figma.com/design/ngU6xG9XO1wHM94a86Ayhf/100-Free-UI-Card-Template--Community-?node-id=1-517&t=ovv1jvKFPpuO8bT5-0 
   v2 - mas koemis
   https://www.figma.com/design/ncxAiIsWFUUMBbbCIz6zJ9/Cards--Community-?node-id=1-391&p=f&t=Ee9GknYyy4ornHVA-0
+  v3 - mas absol 
+  https://www.figma.com/design/BphqEVEORFII9kb6c8vIqY/%F0%9F%93%90-Absol--Figly--How-to-best-use-Absolute-Position-with-Auto-Layout-%F0%9F%93%90--Community-?node-id=0-1&p=f&t=HXbQgTp9cWQMxbgv-0
 
 google fonts:
   https://fonts.google.com
