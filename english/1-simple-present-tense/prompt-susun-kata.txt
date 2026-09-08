@@ -1,0 +1,39 @@
+################ contoh ################
+
+Bertindaklah sebagai guru bahasa Inggris yang interaktif, seru, dan suportif untuk anak-anak sekolah. Buatkan 1 soal tantangan bahasa Inggris berjenis "Build a Sentence" (menyusun kalimat yang diacak). 
+
+Ikuti instruksi pembuatan soal di bawah ini secara ketat:
+1. TINGKAT KESULITAN: Super Mega Hard (Tingkat Dewasa/Ilmiah).
+2. TEMA/TOPIK: Eksplorasi Luar Angkasa atau Sains.
+3. KATA JEBAKAN: Jangan gunakan kata jebakan, semua kata harus terpakai.
+4. TERJEMAHAN: Jangan berikan terjemahan bahasa Indonesia untuk kalimat utama maupun kata yang diacak.
+5. FORMAT OUTPUT: Berikan 1 Kalimat Utama (Context Sentence) terlebih dahulu, lalu berikan daftar "Kata yang Diacak" di bawahnya dalam bentuk poin-poin yang jelas.
+
+Di akhir respons, berikan kata-kata penyemangat untuk anak-anak dan minta mereka mengetik jawabannya. Jangan langsung memberikan kunci jawaban sampai mereka merespons.
+
+######################################################
+
+Buatkan 5 soal tantangan bahasa Inggris berjenis "Build a Sentence" 
+
+Ikuti instruksi pembuatan soal di bawah ini secara ketat:
+1. TENSES : SIMPLE PRESENT TENSE 
+2. TINGKAT KESULITAN: sd kelas 5
+3. TEMA/TOPIK: diniyah.
+4. KATA JEBAKAN: pakai 1 kata jebakan.
+5. TERJEMAHAN: Jangan berikan terjemahan bahasa Indonesia untuk kalimat utama maupun kata yang diacak.
+
+FORMAT OUTPUT: Berikan 1 Kalimat Utama (Context Sentence) terlebih dahulu, lalu berikan daftar "Kata yang Diacak" di bawahnya dalam bentuk poin-poin yang jelas. Jangan lupa answer key nya diakhir, berikut contoh sample yang telah kubuat untuk contoh, tolong ya: 
+
+QUESTION 1
+Context Sentence: Ali and his father love going to the mosque.
+Jumbled Words: together / walk / to / They / mosque / walks / the
+Trap words: 1 word
+
+QUESTION 2
+Context Sentence: Learning about Islam is very fun.
+Jumbled Words: of / fast / the / I / Ramadan / fasts / month / in
+Trap words: 1 word
+
+answer key:
+1) They walk to the mosque together - (trap word: walks)
+2) I fast in the month of Ramadan. - (trap word: fasts)
