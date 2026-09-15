@@ -1,0 +1,21 @@
+# Rangkuman Percakapan
+
+##. Solusi Fitur Keyboard Mac (Accent Menu vs Key Repeat)
+* **Pertanyaan:** Mengapa menahan tombol keyboard Mac memunculkan pilihan karakter khusus, bukan huruf berulang?
+* **Jawaban:** Hal ini disebabkan oleh fitur bawaan macOS bernama **"Accent Menu"**.
+
+### Cara Mengaktifkan Huruf Berulang (Key Repeat):
+1. Buka aplikasi **Terminal**.
+2. Jalankan perintah berikut:
+   ```bash
+   defaults write -g ApplePressAndHoldEnabled -bool false
+   ```
+3. **Restart** atau *log out* Mac Anda.
+
+### Cara Mengembalikan ke Pengaturan Awal (Accent Menu):
+1. Buka aplikasi **Terminal**.
+2. Jalankan perintah berikut:
+   ```bash
+   defaults write -g ApplePressAndHoldEnabled -bool true
+   ```
+3. **Restart** atau *log out* Mac Anda.
