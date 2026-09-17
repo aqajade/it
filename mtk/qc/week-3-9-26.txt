@@ -1,0 +1,8 @@
+allano 100 80
+racky 100 100 
+zivano 100 100 
+rafa 100 100 
+
+zaid 100 80
+akbar 100 100 
+ziad 100 
