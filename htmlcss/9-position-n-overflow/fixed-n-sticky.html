@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: aqua;
+      height: 200vh;
+      /* padding-inline: 20px; */
+    }
+    .sticky{
+      position: sticky;
+      background-color: tomato;
+      top: 0;
+      z-index: 5;
+      margin-bottom: 50px;
+    }
+    .fixed{
+      position: fixed;
+      top: 0;
+      background-color: rgb(25, 167, 63);
+      z-index: 6;
+      color: white;
+      margin-bottom: 50px;
+    }
+    .kontak{
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      background-color: rgb(25, 167, 63);
+      z-index: 6;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header class="sticky">sticky header</header>
+  <header class="fixed">fixed header</header>
+  <div class="kontak">hubungi kami / kembali keatas</div>
+  <p>position sticky membuat elemen menempel saat di scroll</p> 
+</body>
+</html>

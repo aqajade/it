@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Position Fixed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            height: 2000px; /* Membuat halaman menjadi panjang agar bisa di-scroll */
+        }
+
+        /* ELEMEN FIXED */
+        .tombol-melayang {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .konten {
+            margin-top: 50px;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demo Position Fixed</h1>
+    <p>Scroll halaman ini ke bawah untuk melihat efeknya.</p>
+
+    <!-- Elemen dengan posisi fixed -->
+    <div class="tombol-melayang">
+        💬 Hubungi Kami (Fixed)
+    </div>
+
+    <div class="konten">
+        <h3>Konten Panjang</h3>
+        <p>Bila Anda melakukan scroll sampai ke paling bawah halaman, tombol hijau di pojok kanan bawah akan <strong>tetap diam di tempatnya</strong> dan tidak akan pernah bergeser dari layar monitor Anda.</p>
+    </div>
+
+</body>
+</html>

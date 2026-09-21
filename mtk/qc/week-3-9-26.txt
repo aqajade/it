@@ -1,8 +1,34 @@
-allano 100 80
-racky 100 100 
-zivano 100 100 
-rafa 100 100 
+### Gemini - Math - pembagian angka > 3 digit dengan hasil bilangan bulat
+* akmal: 100
+* alkha: 95
+* faruq: 90
+* fathan: 98
+* ismail: 95
+* nizar: 100
 
-zaid 100 80
-akbar 100 100 
-ziad 100 
+### Gemini - HTML & CSS - absolute & relative card practices
+* akmal: 100
+* alkha: 90
+* faruq: 85
+* fathan: 95
+* ismail: 95
+* nizar: 100
+
+### Gemini - Tailwind - Penggunaan svg icons & google fonts
+* akmal: 100
+* alkha: 90
+* faruq: 85
+* fathan: 95
+* ismail: 95
+* nizar: 100
+
+### Claude - Math - konversi bilangan pecahan <-> pecahan campuran
+* akbar: 100
+* zaid: 90
+* ziad: 90
+
+### OpenAI - Math - konversi bilangan pecahan <-> pecahan campuran
+* allano: 95
+* racky: 100
+* rafa: 100 100
+* zivano: 100

@@ -1,0 +1,242 @@
+apa itu html
+apa itu css
+apa yg dimaksud elemen semantik dalam html? elemen yg mendeskripsikan isi elemen didalamnya
+sebutkan 5 elemen semantik di html: header, img, li, footer, ol, main
+elemen html terdiri dari 2 tag: tag pembuka dan tag penutup
+apa yg dimaksud html attribut: tambahan informasi pada tag pembuka
+sebutkan 3 contoh html attribute: class, id, href, alt, 
+apa yg dimaksud css property: styling yg diinginkan pada elemen
+sebutkan 3 jenis css berdasarkan pemanggilannya: inline, internal, eksternal
+inline karena langsung ditulis di elemen html 
+internal karena dipanggil dr elemen head
+eksternal karena dipanggil dr file css terpisah diluar file html 
+font-family digunakan untuk merubah jenis font 
+font-size u/ merubah ukuran 
+font-weight u/ merubah ketebalan 
+font-style u/ merubah gaya teks 
+text-align u/ merubah posisi teks, 
+contoh value u/ text align:left, right, center 
+text-decoration u/ merubah dekorasi teks, 
+contoh value u/ text-decoration: underline, line-through, none 
+text-transform u/ merubah kapital awal kata
+contoh value text-transform: capitalized, uppercase, lowercase 
+line-height u/ merubah tinggi baris teks 
+word-spacing u/ merubah jarak antar kata
+letter-spacing u/ merubah jarak antar huruf
+apa fungsi position relative u/ membungkus absolute
+fungsi position absolute: merubah posisi elemen berdasarkan trbl (top right bottom left) dari induk elemen relative 
+apakah positioning trbl dapat bernilai negatif? ya
+perbedaan utama position fixed dan sticky: fixed tidak mengikuti tumpukan elemen normal, adapun sticky mengikuti tumpukan elemen normal
+display flex bertujuan untuk: mengatur susunan atas bawah menjadi kiri kanan
+justify content berfungsi untuk mengatur susunan elemen berdasarkan...main axis 
+align items mengatur susunan elemen berdasarkan...cross axis 
+main axis adalah arah susunan elemen dalam flexbox berdasarkan flex-direction, ketika direction nya row main axisnya horizontal, ketika column main axisnya vertikal
+cross axis adalah kebalikan dari main axis, ketika main axis horizontal maka cross axis vertikal dan sebaliknya
+bawaan elemen html adalah display static
+z-index berfungsi untuk mengatur tumpukan elemen
+menengahkan elemen horizontal tanpa flexbox dengan margin-inline-auto
+fungsi overflow-hidden u/ mengatur anak elemen agar tidak melampaui ukuran induknya 
+
+
+
+
+1. Jelaskan apa yang dimaksud dengan HTML!
+
+2. Jelaskan apa yang dimaksud dengan CSS!
+
+3. Apa yang dimaksud dengan elemen semantik dalam HTML?
+
+4. Sebutkan 5 contoh elemen semantik yang terdapat di dalam HTML!
+
+5. Sebuah elemen HTML umumnya terdiri dari dua jenis tag, sebutkan kedua jenis tag tersebut!
+
+6. Apa yang dimaksud dengan HTML *attribute*?
+
+7. Sebutkan 3 contoh HTML *attribute* yang sering digunakan dalam pembuatan halaman web!
+
+8. Apa yang dimaksud dengan CSS *property*?
+
+9. Sebutkan 3 jenis penerapan CSS berdasarkan cara pemanggilan atau penempatan kodenya!
+
+10. Mengapa suatu kode CSS disebut sebagai *inline CSS*? Jelaskan alasan penamaannya!
+
+11. Mengapa suatu kode CSS disebut sebagai *internal CSS*? Jelaskan alasan penamaannya!
+
+12. Mengapa suatu kode CSS disebut sebagai *external CSS*? Jelaskan alasan penamaannya!
+
+13. Jelaskan fungsi dari penggunaan properti `font-family` pada CSS!
+
+14. Jelaskan fungsi dari penggunaan properti `font-size` pada CSS!
+
+15. Jelaskan fungsi dari penggunaan properti `font-weight` pada CSS!
+
+16. Jelaskan fungsi dari penggunaan properti `font-style` pada CSS!
+
+17. Jelaskan fungsi dari penggunaan properti `text-align` pada CSS!
+
+18. Sebutkan 3 contoh *value* (nilai) yang dapat diisi pada properti `text-align`!
+
+19. Jelaskan fungsi dari penggunaan properti `text-decoration` pada CSS!
+
+20. Sebutkan 3 contoh *value* (nilai) yang dapat digunakan pada properti `text-decoration`!
+
+21. Jelaskan fungsi dari penggunaan properti `text-transform` pada CSS!
+
+22. Sebutkan 3 contoh *value* (nilai) yang dapat diterapkan pada properti `text-transform`!
+
+23. Jelaskan fungsi dari penggunaan properti `line-height` pada CSS!
+
+24. Jelaskan fungsi dari penggunaan properti `word-spacing` pada CSS!
+
+25. Jelaskan fungsi dari penggunaan properti `letter-spacing` pada CSS!
+
+26. Dalam konsep *positioning*, apa fungsi utama dari penggunaan `position: relative` ketika dikombinasikan dengan elemen *absolute*?
+
+27. Jelaskan fungsi dari penggunaan `position: absolute` beserta hubungannya dengan pengaturan TRBL (*top, right, bottom, left*)!
+
+28. Apakah nilai koordinat pada *positioning* TRBL (*top, right, bottom, left*) dapat diisi dengan nilai negatif?
+
+29. Jelaskan perbedaan utama antara properti `position: fixed` dan `position: sticky` terkait dengan tumpukan elemen normal halaman web!
+
+30. Apa tujuan utama dari penggunaan properti `display: flex` pada susunan elemen HTML?
+
+31. Pada pengaturan layout Flexbox, properti `justify-content` berfungsi untuk mengatur susunan elemen berdasarkan apa?
+
+32. Pada pengaturan layout Flexbox, properti `align-items` berfungsi untuk mengatur susunan elemen berdasarkan apa?
+
+33. Jelaskan apa yang dimaksud dengan *main axis* dalam konsep Flexbox, serta bagaimana pengaruh properti `flex-direction` terhadap arahnya!
+
+34. Jelaskan apa yang dimaksud dengan *cross axis* dalam konsep Flexbox serta hubungannya dengan *main axis*!
+
+35. Apakah jenis nilai *display* bawaan (*default*) yang dimiliki oleh hampir setiap elemen HTML sebelum diubah?
+
+36. Jelaskan fungsi dari penggunaan properti `z-index` pada elemen web!
+
+37. Bagaimana cara menengahkan sebuah elemen secara horizontal tanpa menggunakan layout Flexbox?
+
+38. Jelaskan fungsi dari penggunaan properti `overflow: hidden` pada elemen induk terhadap ukuran anak elemennya!
+
+
+jawaban:
+
+
+# KUNCI JAWABAN UJIAN PEMROGRAMAN WEB
+**MATA UJIAN:** DASAR HTML DAN CSS  
+
+---
+
+### KUNCI JAWABAN SOAL ESSAY
+
+1. **Apa itu HTML?**  
+   HTML
+
+2. **Apa itu CSS?**  
+   CSS
+
+3. **Apa yg dimaksud elemen semantik dalam HTML?**  
+   Elemen yg mendeskripsikan isi elemen didalamnya
+
+4. **Sebutkan 5 elemen semantik di HTML:**  
+   Header, img, li, footer, ol, main
+
+5. **Elemen HTML terdiri dari 2 tag:**  
+   Tag pembuka dan tag penutup
+
+6. **Apa yg dimaksud HTML attribut?**  
+   Tambahan informasi pada tag pembuka
+
+7. **Sebutkan 3 contoh HTML attribute:**  
+   Class, id, href, alt
+
+8. **Apa yg dimaksud CSS property?**  
+   Styling yg diinginkan pada elemen
+
+9. **Sebutkan 3 jenis CSS berdasarkan pemanggilannya:**  
+   Inline, internal, eksternal
+
+10. **Alasan penamaan Inline CSS:**  
+    Karena langsung ditulis di elemen html
+
+11. **Alasan penamaan Internal CSS:**  
+    Karena dipanggil dr elemen head
+
+12. **Alasan penamaan External CSS:**  
+    Karena dipanggil dr file css terpisah diluar file html
+
+13. **Fungsi `font-family`:**  
+    Digunakan untuk merubah jenis font
+
+14. **Fungsi `font-size`:**  
+    U/ merubah ukuran
+
+15. **Fungsi `font-weight`:**  
+    U/ merubah ketebalan
+
+16. **Fungsi `font-style`:**  
+    U/ merubah gaya teks
+
+17. **Fungsi `text-align`:**  
+    U/ merubah posisi teks
+
+18. **Contoh value u/ `text-align`:**  
+    Left, right, center
+
+19. **Fungsi `text-decoration`:**  
+    U/ merubah dekorasi teks
+
+20. **Contoh value u/ `text-decoration`:**  
+    Underline, line-through, none
+
+21. **Fungsi `text-transform`:**  
+    U/ merubah kapital awal kata
+
+22. **Contoh value `text-transform`:**  
+    Capitalized, uppercase, lowercase
+
+23. **Fungsi `line-height`:**  
+    U/ merubah tinggi baris teks
+
+24. **Fungsi `word-spacing`:**  
+    U/ merubah jarak antar kata
+
+25. **Fungsi `letter-spacing`:**  
+    U/ merubah jarak antar huruf
+
+26. **Apa fungsi position relative?**  
+    U/ membungkus absolute
+
+27. **Fungsi position absolute:**  
+    Merubah posisi elemen berdasarkan trbl (top right bottom left) dari induk elemen relative
+
+28. **Apakah positioning trbl dapat bernilai negatif?**  
+    Ya
+
+29. **Perbedaan utama position fixed dan sticky:**  
+    Fixed tidak mengikuti tumpukan elemen normal, adapun sticky mengikuti tumpukan elemen normal
+
+30. **Display flex bertujuan untuk:**  
+    Mengatur susunan atas bawah menjadi kiri kanan
+
+31. **Justify content berfungsi untuk mengatur susunan elemen berdasarkan...**  
+    Main axis
+
+32. **Align items mengatur susunan elemen berdasarkan...**  
+    Cross axis
+
+33. **Main axis adalah:**  
+    Arah susunan elemen dalam flexbox berdasarkan flex-direction, ketika direction nya row main axisnya horizontal, ketika column main axisnya vertikal
+
+34. **Cross axis adalah:**  
+    Kebalikan dari main axis, ketika main axis horizontal maka cross axis vertikal dan sebaliknya
+
+35. **Bawaan elemen html adalah:**  
+    Display static
+
+36. **Z-index berfungsi untuk:**  
+    Mengatur tumpukan elemen
+
+37. **Menengahkan elemen horizontal tanpa flexbox dengan:**  
+    Margin-inline-auto
+
+38. **Fungsi overflow-hidden:**  
+    U/ mengatur anak elemen agar tidak melampaui ukuran induknya

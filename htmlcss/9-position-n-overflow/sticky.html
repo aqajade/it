@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Position Sticky</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            height: 2000px; /* Membuat halaman panjang */
+        }
+
+        /* KOTAK INDUK (PARENT) */
+        .kotak-artikel {
+            background-color: #e3f2fd;
+            padding: 20px;
+            margin-top: 100px;
+            border: 2px solid #2196f3;
+        }
+
+        /* ELEMEN STICKY */
+        .judul-sticky {
+            position: -webkit-sticky; /* Dukungan untuk Safari */
+            position: sticky;
+            top: 0; /* Menempel di paling atas layar saat di-scroll */
+            background-color: #2196f3;
+            color: white;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .isi-teks {
+            padding: 20px 0;
+            line-height: 1.8;
+        }
+
+        .konten-lain {
+            background-color: #ffebee;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demo Position Sticky</h1>
+    <p>Scroll ke bawah secara perlahan untuk melihat transisinya.</p>
+
+    <!-- Elemen Induk -->
+    <div class="kotak-artikel">
+        <!-- Elemen Sticky di dalam induknya -->
+        <h2 class="judul-sticky">📌 Judul Ini Sticky</h2>
+        
+        <div class="isi-teks">
+            <p>1. Awalnya judul di atas terlihat seperti teks biasa.</p>
+            <p>2. Saat Anda scroll bawah dan judul menyentuh bagian atas browser, dia akan <strong>berhenti dan menempel</strong>.</p>
+            <p>3. Teruskan scroll ke bawah...</p>
+            <p>4. Teks panjang ini sengaja dibuat agar kotak biru ini menjadi tinggi.</p>
+            <p>5. Batas akhir kotak artikel biru ada di bawah kalimat ini.</p>
+        </div>
+    </div>
+
+    <div class="konten-lain">
+        <h3>Konten Bagian Selanjutnya</h3>
+        <p>Begitu Anda sampai di kotak merah ini, Judul Sticky tadi akan <strong>ikut tergulung ke atas dan menghilang</strong> karena area kotak induknya (kotak biru) sudah habis.</p>
+    </div>
+
+</body>
+</html>

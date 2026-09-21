@@ -1,0 +1,38 @@
+apa itu html
+apa itu css
+apa yg dimaksud elemen semantik dalam html? elemen yg mendeskripsikan isi elemen didalamnya
+sebutkan 5 elemen semantik di html: header, img, li, footer, ol, main
+elemen html terdiri dari 2 tag: tag pembuka dan tag penutup
+apa yg dimaksud html attribut: tambahan informasi pada tag pembuka
+sebutkan 3 contoh html attribute: class, id, href, alt, 
+apa yg dimaksud css property: styling yg diinginkan pada elemen
+sebutkan 3 jenis css berdasarkan pemanggilannya: inline, internal, eksternal
+inline karena langsung ditulis di elemen html 
+internal karena dipanggil dr elemen head
+eksternal karena dipanggil dr file css terpisah diluar file html 
+font-family digunakan untuk merubah jenis font 
+font-size u/ merubah ukuran 
+font-weight u/ merubah ketebalan 
+font-style u/ merubah gaya teks 
+text-align u/ merubah posisi teks, 
+contoh value u/ text align:left, right, center 
+text-decoration u/ merubah dekorasi teks, 
+contoh value u/ text-decoration: underline, line-through, none 
+text-transform u/ merubah kapital awal kata
+contoh value text-transform: capitalized, uppercase, lowercase 
+line-height u/ merubah tinggi baris teks 
+word-spacing u/ merubah jarak antar kata
+letter-spacing u/ merubah jarak antar huruf
+apa fungsi position relative u/ membungkus absolute
+fungsi position absolute: merubah posisi elemen berdasarkan trbl (top right bottom left) dari induk elemen relative 
+apakah positioning trbl dapat bernilai negatif? ya
+perbedaan utama position fixed dan sticky: fixed tidak mengikuti tumpukan elemen normal, adapun sticky mengikuti tumpukan elemen normal
+display flex bertujuan untuk: mengatur susunan atas bawah menjadi kiri kanan
+justify content berfungsi untuk mengatur susunan elemen berdasarkan...main axis 
+align items mengatur susunan elemen berdasarkan...cross axis 
+main axis adalah arah susunan elemen dalam flexbox berdasarkan flex-direction, ketika direction nya row main axisnya horizontal, ketika column main axisnya vertikal
+cross axis adalah kebalikan dari main axis, ketika main axis horizontal maka cross axis vertikal dan sebaliknya
+bawaan elemen html adalah display static
+z-index berfungsi untuk mengatur tumpukan elemen
+menengahkan elemen horizontal tanpa flexbox dengan margin-inline-auto
+fungsi overflow-hidden u/ mengatur anak elemen agar tidak melampaui ukuran induknya 

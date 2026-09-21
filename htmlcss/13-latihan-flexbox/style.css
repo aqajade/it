@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.bungkus-flex {
+  display: flex;
+  gap: 10px;
+  height: 150px;
+  background-color: white;
+  color: black;
+  /* flex-direction: row; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
