@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.bungkus{
+  /* butuh relativ untuk trbl */
+  /* position: absolute; */
+
+  /* ibu nya absolute */
+  /* position: relative; */
+
+  /* ibu nya adalah layar dan melayang diatas elemen lain*/
+  /* position: fixed; */
+
+  /* patokannya layar jg kaya posfi tapi ga melayang */
+  /* position: sticky; */
+
+  /* bawaan */
+  position: static;
+}

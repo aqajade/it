@@ -36,7 +36,7 @@ bawaan elemen html adalah display static
 z-index berfungsi untuk mengatur tumpukan elemen
 menengahkan elemen horizontal tanpa flexbox dengan margin-inline-auto
 fungsi overflow-hidden u/ mengatur anak elemen agar tidak melampaui ukuran induknya 
-
+buat box shadow dan jelaskan urutan propertinya
 
 
 

@@ -1,0 +1,247 @@
+1. **Apa itu Tailwind ?**  
+   Framework CSS yg memudahkan kita menggunakan css siap pakai
+
+3. **Apa itu arbitrary value di Tailwind?**  
+   Fitur u/ masukin nilai custom pake kurung siku, misal w-[745px]
+
+4. **1 angka di Tailwind defaultnya berapa px?**  
+   4px (contoh: w-4 artinya 16px)
+
+5. **Class u/ elemen di dalam body berada di tengah (horizontal & vertikal):**  
+   grid place-items-center min-h-screen
+
+6. **Class u/ justify content center:**  
+   flex justify-center
+
+7. **Class u/ align items center**  
+   flex items-center
+
+8. **Class Tailwind u/ display flex:**  
+   flex
+
+9. **Class Tailwind u/ flex direction column:**  
+   flex-col
+
+10. **Class Tailwind u/ ujung elemen melengkung standar:**  
+    rounded-lg atau rounded
+
+11. **Class Tailwind u/ align items center:**  
+    items-center
+
+12. **Class Tailwind u/ justify content center:**  
+    justify-center
+
+13. **Class Tailwind u/ justify content space between:**  
+    justify-between
+
+14. **Class Tailwind u/ padding ke segala arah sebesar 24px:**  
+    p-6
+
+15. **Class Tailwind u/ padding kiri kanan sebesar 24px:**  
+    px-6
+
+16. **Class Tailwind u/ padding atas bawah sebesar 24px:**  
+    py-6
+
+17. **Class Tailwind u/ gap sebesar 24px:**  
+    gap-6
+
+18. **Class u/ warna background hijau:**  
+    bg-green-100
+
+19. **Cara nulis warna hex custom u/ background:**  
+    bg-[#e5e5e5]
+
+20. **Class u/ text warna merah :**  
+    text-red-500
+
+21. **Class u/ bikin text jadi tebal (bold):**  
+    font-bold
+
+24. **Class u/ ukuran text 14px:**  
+    text-[14px] 
+
+25. **Class u/ merubah jenis font menjadi serif:**  
+    font-serif
+
+26. **Class u/ merubah jenis font menjadi sans-serif:**  
+    font-sans
+
+27. **Class u/ posisi elemen static:**  
+    static
+
+28. **Class u/ posisi elemen relative:**  
+    relative
+
+29. **Class u/ posisi elemen absolute:**  
+    absolute
+
+30. **Class u/ posisi elemen fixed:**  
+    fixed
+
+31. **Class u/ posisi elemen sticky:**  
+    sticky
+
+32. **Class u/ mengatur posisi top sebesar 0:**  
+    top-0
+
+33. **Class u/ posisi top bernilai negatif (misal -5px):**  
+    -top-[5px]
+
+34. **Class u/ z-index bernilai 10:**  
+    z-10
+
+35. **Class u/ margin-inline-auto (tengahin elemen blok):**  
+    mx-auto
+
+36. **Class u/ overflow hidden:**  
+    overflow-hidden
+
+37. **Class u/ lebar penuh (100%):**  
+    w-full
+
+38. **Class u/ lebar layar penuh (100vw):**  
+    w-screen
+
+39. **Class u/ tinggi minimal layar penuh (100vh):**  
+    min-h-screen
+
+40. **Class u/ tinggi custom (misal 303px):**  
+    h-[303px]
+
+41. **Class u/ border luar warna biru 2px:**  
+    outline-[2px] outline-[#3437f1]
+
+43. **Cara bikin shadow custom warna hitam:**  
+    shadow-[0px_0px_8px_black]
+
+44. **Class u/ ukuran box img kotak (lebar & tinggi 160px dengan angka tailwind):**  
+    w-40 h-40 atau size-40
+
+47. **Class u/ text align center:**   
+    text-center
+
+48. **Class u/ text align right:**  
+    text-right
+
+56. **Class u/ word spacing atau jarak antar kata custom (misal 5px):**  
+    tracking-[5px] (menggunakan tracking custom)
+
+57. **Bagaimana cara pakai status hover di Tailwind?**  
+    Tambah awalan `hover:`, contoh hover:bg-blue-500
+
+62. **Cara bikin responsive layout (warna merah di HP, biru di laptop):**  
+    bg-red-500 lg:bg-blue-500
+
+63. **Tailwind menganut prinsip Mobile First, artinya:**  
+    Styling dasar u/ layar kecil, layar besar diatur pake prefix (sm:, md:, lg:)
+
+64. **Class u/ fill warna hijau pada elemen SVG:**  
+    fill-green-600
+
+65. **Class u/ stroke warna merah pada elemen SVG:**  
+    stroke-red-500
+
+66. **Class u/ ngatur opasitas atau transparansi elemen jadi 50%:**  
+    opacity-50
+  
+69. **Class u/ ngasih efek transisi standar:**  
+    transition
+
+70. **Class u/ durasi transisi sebesar 300ms:**  
+    duration-300
+
+72. **Class u/ border warna abu-abu tebal 1px:**  
+    border border-gray-300
+
+49. **Class u/ text decoration underline:**  
+    underline
+
+50. **Class u/ ngilangin text decoration (misal di link):**  
+    no-underline
+
+51. **Class u/ text transform uppercase:**  
+    uppercase
+
+52. **Class u/ text transform lowercase:**  
+    lowercase
+
+53. **Class u/ text transform capitalize:**  
+    capitalize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+58. **Bagaimana cara pakai status focus?**  
+    Tambah awalan `focus:`, contoh focus:outline-none
+
+59. **Breakpoint `sm` di Tailwind mulai dari ukuran berapa?**  
+    640px
+
+60. **Breakpoint `md` di Tailwind mulai dari ukuran berapa?**  
+    768px
+
+61. **Breakpoint `lg` di Tailwind mulai dari ukuran berapa?**  
+    1024px
+
+67. **Class u/ ngatur kursor jadi pointer saat hover:**  
+    cursor-pointer
+
+68. **Class u/ matiin interaksi klik pada elemen:**  
+    pointer-events-none
+
+71. **Class u/ fungsi transisi ease-in-out:**  
+    ease-in-out
+
+
+73. **Class u/ ngilangin border:**  
+    border-none
+
+74. **Class u/ flex wrap (elemen turun ke bawah kalau gak muat):**  
+    flex-wrap
+
+75. **Class u/ flex grow (elemen mensegmentasi sisa ruang kosong):**  
+    flex-grow atau grow
+
+76. **Class u/ flex shrink 0 (elemen gak bakal menyusut):**  
+    shrink-0
+
+77. **Class u/ ngatur list peluru (bullet) di tag ul:**  
+    list-disc
+
+78. **Class u/ posisi list peluru di dalam elemen:**  
+    list-inside
+
+79. **Class u/ menyembunyikan elemen secara total (display none):**  
+    hidden
+
+80. **Class u/ nampilin elemen yg hidden jadi block kembali:**  
+    block
+
+45. **Class u/ display grid:**  
+    grid
+
+46. **Class u/ bikin 2 kolom grid yg sama besar:**  
+    grid-cols-2

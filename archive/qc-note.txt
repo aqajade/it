@@ -1,17 +1,14 @@
-qc mtk week 3 
-gemini
-nizar = 100
-akmal = 100
-faruq = 100
-alkha = 100
-fathan = 95
-ismail = 95
+uts html+css 
+nizar 87.5
+akmal 87.5
+alkha 60
+faruq 75
+ismail 
 
-qc b.inggris week 3
-gemini 
-akmal = 95
-nizar = 95
-fathan = 95
-faruq = 95
-ismail = 98
-alkha = 100
+uts mtk gemini
+nizar 60
+fathan 74
+akmal 93
+alkha 40
+faruq 5`0
+
