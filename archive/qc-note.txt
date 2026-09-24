@@ -1,14 +1,46 @@
 uts html+css 
 nizar 87.5
 akmal 87.5
+fathan 80
 alkha 60
 faruq 75
-ismail 
 
 uts mtk gemini
 nizar 60
 fathan 74
 akmal 93
 alkha 40
-faruq 5`0
+faruq 50
 
+note: ismail - kondisinya ngga fit, insya Allah susulan
+
+
+
+
+### Gemini - HTML & CSS - UTS - Dasar HTML, CSS, dan Layouting.
+* akmal: 95
+* alkha: 79
+* faruq: 88
+* fathan: 91
+* nizar: 95
+
+### Gemini - Math - UTS MTK Gemini - Operasi Hitung Bilangan Bulat Dasar.
+* akmal: 95
+* alkha: 79
+* faruq: 83
+* fathan: 90
+* nizar: 86
+
+
+
+
+
+
+### Gemini - Math - UTS MTK Gemini - Operasi Hitung Bilangan Bulat Dasar.
+* alkha: 50
+* faruq: 62.5
+* fathan: 67.5
+* ismail: 47.5
+* nizar: 77.5
+
+note: akmal - sakit, insya Allah susulan, udah ana japrikan soal uts nya ke beliau, semoga Allah mudahkan ismail mengerjakannya, takut mail nya nda baca pesan ana ana izin titip soal nya ya pak arya

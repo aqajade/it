@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <style type="text/tailwindcss">
+      /* A. Panggil file font lokal Inter yang sudah Anda download */
+      @font-face {
+        font-family: "Inter";
+        src: url("./assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("./assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+        font-weight: 100 900;
+        font-style: italic; 
+        font-display: swap;
+      }
+
+      /* B. Masukkan ke dalam tema Tailwind v4 */
+      @theme {
+        --font-inter: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <!-- font-[Inter] -->
+  <body class="grid place-items-center min-h-screen bg-[#2a0545] font-inter">
+    <div
+      class="relative card h-106.25 w-80 rounded-b-lg rounded-tr-4xl overflow-hidden"
+    >
+      <div class="card-top relative">
+        <button class="absolute top-2 right-2" aria-label="Add to favorites">
+          <img src="./assets/icons/love.svg" alt="" aria-hidden="true" />
+        </button>
+        <div
+          class="badge-container absolute left-4 top-56.75 bg-[#9B5FB6] px-3 py-2 z-1 rounded-l-sm rounded-br-sm rounded-tr-[20px]"
+        >
+          <p class="text-white text-[12px] tracking-[0.2em]">SNEAKER</p>
+        </div>
+        <img
+          class="h-61.25 w-80 object-cover"
+          src="./assets/images/shoe.jpg"
+          alt="shoe-image"
+        />
+      </div>
+      <div class="card-bottom h-45 bg-white relative">
+        <div
+          class="price absolute flex flex-col text-[#140B3E] right-4 bottom-5.5"
+        >
+          <p class="font-semibold text-[20px] text-right">$123.45</p>
+          <p class="text-[13px] leading-4 italic">
+            <span class="not-italic">🔥</span> Only
+            <span class="font-semibold">2</span> left
+          </p>
+        </div>
+
+        <a
+          class="absolute flex gap-2 bg-[#6956BE] py-2 px-6 w-fit rounded-[20px] left-4 bottom-6.5"
+          href=""
+        >
+          <p class="color-white font-medium text-white text-[16px]">Buy Now</p>
+          <img src="arrow.svg" alt="" aria-hidden="true" />
+        </a>
+        <div
+          class="inline-ratings absolute left-4 bottom-22.5 flex gap-1 items-center"
+        >
+          <div class="rating-stack flex">
+            <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+            <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+            <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+            <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+            <img
+              src="./assets/icons/star-outline.svg"
+              alt=""
+              aria-hidden="true"
+            />
+          </div>
+          <p class="font-semibold text-[16px]">4.0</p>
+          <div class="review flex flex-col items-center">
+            <p class="text-[14px] text-[#6956BE]">(234 reviews)</p>
+            <div class="line h-px w-20.5 bg-[#6956BE]"></div>
+          </div>
+        </div>
+        <div
+          class="card-title absolute font-bold text-[20px] text-[#140B3E] tracking-[-0.02em] left-4 top-7.5"
+        >
+          Looking drip in da sneakeys
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

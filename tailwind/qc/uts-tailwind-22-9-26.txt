@@ -245,3 +245,51 @@
 
 46. **Class u/ bikin 2 kolom grid yg sama besar:**  
     grid-cols-2
+
+
+
+sorted:
+
+1. Jelaskan apa yang dimaksud dengan *arbitrary value* pada Tailwind CSS beserta fungsinya.
+2. Berapa nilai dalam satuan piksel (px) yang direpresentasikan oleh 1 unit angka bawaan (*default*) pada Tailwind CSS?
+3. Tuliskan kombinasi *class* Tailwind CSS yang digunakan untuk memosisikan elemen di dalam elemen `<body>` agar berada tepat di tengah secara horizontal dan vertikal.
+4. Tuliskan *class* Tailwind CSS yang tepat untuk memberikan *padding* ke segala arah (*all sides*) sebesar 24px.
+5. Bagaimana cara menuliskan kode warna heksadesimal (*hex color*) kustom untuk warna latar belakang (*background*) pada Tailwind CSS?
+6. Tuliskan *class* Tailwind CSS yang digunakan untuk mengatur ukuran teks menjadi tepat 14px.
+7. Tuliskan *class* Tailwind CSS untuk mengatur posisi *top* dengan nilai negatif sebesar 5px.
+8. Tuliskan *class* Tailwind CSS untuk membuat garis tepi luar (*outline*) berwarna biru dengan ketebalan 2px.
+9. Bagaimana cara membuat bayangan kustom (*custom shadow*) berwarna hitam menggunakan Tailwind CSS?
+10. Tuliskan *class* Tailwind CSS untuk mengatur dimensi elemen gambar (`<img>`) berbentuk kotak dengan lebar dan tinggi masing-masing 160px menggunakan angka unit *default*.
+11. Tuliskan *class* Tailwind CSS untuk mengatur jarak antarhuruf/kata kustom (*letter/word spacing*) sebesar 5px.
+12. Bagaimana langkah atau sintaks yang benar untuk menerapkan status (*state*) *hover* pada suatu elemen di Tailwind CSS?
+13. Bagaimana cara menerapkan tata letak responsif (*responsive layout*) agar elemen berwarna merah pada layar ponsel (*mobile*) dan berubah menjadi biru pada layar laptop (*large screen*)?
+14. Tailwind CSS menganut prinsip *Mobile First*. Jelaskan apa maksud dari konsep tersebut dalam proses instalasi gaya (*styling*).
+15. Tuliskan *class* Tailwind CSS yang berfungsi untuk memberikan warna isi (*fill*) hijau pada elemen SVG.
+16. Tuliskan *class* Tailwind CSS yang berfungsi untuk memberikan warna garis tepi (*stroke*) merah pada elemen SVG.
+17. Tuliskan *class* Tailwind CSS yang digunakan untuk memberikan efek transisi standar pada suatu elemen.
+18. Tuliskan *class* Tailwind CSS untuk mengatur durasi transisi selama 300 milidetik (ms).
+19. Tuliskan *class* Tailwind CSS untuk membuat *border* berwarna abu-abu dengan ketebalan 1px.
+20. Tuliskan *class* Tailwind CSS yang digunakan untuk mengatur posisi suatu elemen menjadi *sticky*.
+
+## KUNCI JAWABAN
+
+1. Fitur untuk memasukkan nilai kustom yang tidak ada di konfigurasi bawaan menggunakan kurung siku, contoh: `w-[745px]`.
+2. 4px (Contoh: `w-4` berarti 16px).
+3. `grid place-items-center min-h-screen`
+4. `p-6`
+5. Menggunakan kurung siku setelah prefix `bg-`, contoh: `bg-[#e5e5e5]`.
+6. `text-[14px]`
+7. `-top-[5px]`
+8. `outline-[2px] outline-[#3437f1]`
+9. Menggunakan kurung siku setelah prefix `shadow-`, contoh: `shadow-[0px_0px_8px_black]`.
+10. `w-40 h-40` atau `size-40`
+11. `tracking-[5px]`
+12. Menambahkan awalan `hover:` sebelum *class* utility yang diinginkan, contoh: `hover:bg-blue-500`.
+13. `bg-red-500 lg:bg-blue-500`
+14. Gaya dasar diaplikasikan untuk layar terkecil terlebih dahulu tanpa *prefix*, sedangkan penyesuaian untuk layar yang lebih besar diatur menggunakan *responsive breakpoints prefix* seperti `sm:`, `md:`, atau `lg:`.
+15. `fill-green-600`
+16. `stroke-red-500`
+17. `transition`
+18. `duration-300`
+19. `border border-gray-300`
+20. `sticky`
