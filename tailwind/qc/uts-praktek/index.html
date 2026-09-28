@@ -5,37 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font online - google font cdn -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     /> -->
+
+    <!-- font offline - ter download dr google font -->
     <style type="text/tailwindcss">
-      /* A. Panggil file font lokal Inter yang sudah Anda download */
+      /* inter normal */
+
       @font-face {
         font-family: "Inter";
-        src: url("./assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+        src: url("./assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf")
+          format("truetype");
         font-weight: 100 900;
         font-style: normal;
         font-display: swap;
       }
 
+      /* inter italic */
       @font-face {
         font-family: "Inter";
-        src: url("./assets/fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+        src: url("./assets/fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf")
+          format("truetype");
         font-weight: 100 900;
-        font-style: italic; 
+        font-style: italic;
         font-display: swap;
       }
 
-      /* B. Masukkan ke dalam tema Tailwind v4 */
       @theme {
         --font-inter: "Inter", sans-serif;
       }
     </style>
   </head>
-  <!-- font-[Inter] -->
+  <!-- case font online pakai font-[Inter] -->
   <body class="grid place-items-center min-h-screen bg-[#2a0545] font-inter">
     <div
       class="relative card h-106.25 w-80 rounded-b-lg rounded-tr-4xl overflow-hidden"
@@ -71,7 +77,7 @@
           href=""
         >
           <p class="color-white font-medium text-white text-[16px]">Buy Now</p>
-          <img src="arrow.svg" alt="" aria-hidden="true" />
+          <img src="./assets/icons/arrow.svg" alt="" aria-hidden="true" />
         </a>
         <div
           class="inline-ratings absolute left-4 bottom-22.5 flex gap-1 items-center"

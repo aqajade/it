@@ -1,0 +1,9 @@
+"Buatkan tabel visual 6 kolom untuk data nilai di bawah ini, urutkan berdasarkan abjad nama mahasiswa (A-Z), dan sesuaikan isi kolom evaluasi serta targetnya dengan topik materi yang diujikan:
+
+### Gemini - HTML & CSS - UTS - Dasar HTML, CSS, dan Layouting.
+* Akmal Ubaidillah: 95
+* Alkhalifishadiq De Khaira: 79
+* Faruq: 88
+* Sayyid Muhammad Fathan: 91
+* Nizar: 95
+* Ismail Mutqin: 94

@@ -1,3 +1,38 @@
+list nama lengkap:
+Akmal Ubaidillah 
+Alkhalifishadiq De Khaira
+Faruq
+Ismail Mutqin
+Nizar
+Sayyid Muhammad Fathan
+Abdurrohman Al Fatah
+Muhammad Akbar Alvano
+Muhammad Azzam Zivano
+Muhammad Fiqih Allano
+Racky Najah Ardhani
+Ziad Al Adzka
+Zaid Muhammad Farhan
+
+
+
+Akmal Ubaidillah = akmal
+Alkhalifishadiq De Khaira = alkha
+Faruq 
+Ismail Mutqin 
+Nizar
+Sayyid Muhammad Fathan
+
+Abdurrohman Al Fatah = rafa
+Muhammad Akbar Alvano = akbar
+Muhammad Azzam Zivano
+Muhammad Fiqih Allano
+Racky Najah Ardhani
+Ziad Al Adzka = ziad
+Zaid Muhammad Farhan = zaid
+
+
+
+
 uts html+css 
 nizar 87.5
 akmal 87.5
@@ -15,7 +50,7 @@ faruq 50
 note: ismail - kondisinya ngga fit, insya Allah susulan
 
 
-
+################## UTS #########################################
 
 ### Gemini - HTML & CSS - UTS - Dasar HTML, CSS, dan Layouting.
 * akmal: 95
@@ -23,24 +58,163 @@ note: ismail - kondisinya ngga fit, insya Allah susulan
 * faruq: 88
 * fathan: 91
 * nizar: 95
+* ismail: 94
 
-### Gemini - Math - UTS MTK Gemini - Operasi Hitung Bilangan Bulat Dasar.
+### Gemini - Math - UTS - Operasi Hitung Bilangan Bulat Dasar.
 * akmal: 95
-* alkha: 79
+* alkha: 77
 * faruq: 83
 * fathan: 90
 * nizar: 86
+* ismail: 91
 
+### Gemini - UTS Tailwind Gemini - Operasi Hitung Bilangan Bulat Dasar.
+* alkha 81
+* faruq 87
+* fathan 90
+* ismail 79
+* nizar 95
+akmal: -
 
-
-
-
-
-### Gemini - Math - UTS MTK Gemini - Operasi Hitung Bilangan Bulat Dasar.
 * alkha: 50
 * faruq: 62.5
 * fathan: 67.5
 * ismail: 47.5
 * nizar: 77.5
+* akmal: sakit
 
-note: akmal - sakit, insya Allah susulan, udah ana japrikan soal uts nya ke beliau, semoga Allah mudahkan ismail mengerjakannya, takut mail nya nda baca pesan ana ana izin titip soal nya ya pak arya
+alkha 50
+faruq 62
+fathan 68
+ismail 48
+nizar 78
+* akmal: sakit
+
+uts tailwind gemini
+alkha 81
+faruq 87
+fathan 90
+ismail 79
+nizar 95
+
+### Gemini - UTS Praktek Tailwind & HTML CSS - Absolute Card
+* alkha: 84
+* fathan: 82
+* ismail: 85
+* nizar: 95
+* faruq: -
+* akmal: -
+
+note:
+* akmal: izin sakit masih lemas dan bsk 29 sept katanya ke rumah it baru bisa ikut ujian susulan
+* faruq: terkendala laptop
+
+### Claude x openAI - UTS Math - Operasi Hitung Pecahan, Konversi Desimal, dan Persen
+* allano: 100
+* rafa: 90
+* racky: 100
+* zivano: 100
+* akbar: 77
+* zaid: -
+* ziad: -
+
+zaid & ziad izin telat mengumpulkan ana tunggu maksimal hari ini
+
+
+
+siap kirim:
+
+### Gemini - Tailwind & HTML CSS - Praktek - Absolute Card
+* alkha: 84
+* fathan: 82
+* ismail: 85
+* nizar: 95
+* faruq: -
+* akmal: -
+
+### Gemini - HTML & CSS - UTS - Dasar HTML, CSS, dan Layouting.
+* akmal: 95
+* alkha: 79
+* faruq: 88
+* fathan: 91
+* nizar: 95
+* ismail: 94
+
+### Gemini - Tailwind - UTS - Dasar Sintaks Utility TailwindCSS.
+* alkha 81
+* faruq 87
+* fathan 90
+* ismail 79
+* nizar 95
+* akmal: -
+
+### Gemini - Math - UTS - Operasi Hitung Bilangan Bulat Dasar.
+* akmal: 95
+* alkha: 77
+* faruq: 83
+* fathan: 90
+* nizar: 86
+* ismail: 91
+
+### Claude x openAI - UTS Math - Operasi Hitung Pecahan, Konversi Desimal, dan Persen
+* allano: 100
+* rafa: 90
+* racky: 100
+* zivano: 100
+* akbar: 78
+* zaid: -
+* ziad: -
+
+note:
+* akmal: izin sakit masih lemas dan bsk 29 sept katanya ke rumah it baru bisa ikut ujian susulan
+* faruq: terkendala laptop
+* zaid & ziad izin telat mengumpulkan ana tunggu maksimal hari ini
+ana tunggu maksimal 8.40
+
+
+
+
+updated nama lengkap:
+
+### Gemini - Tailwind & HTML CSS - Praktek - Absolute Card
+* Alkhalifishadiq De Khaira: 84
+* Sayyid Muhammad Fathan: 82
+* Ismail Mutqin: 85
+* Nizar: 95
+* Faruq: -
+* Akmal Ubaidillah: -
+
+### Gemini - HTML & CSS - UTS - Dasar HTML, CSS, dan Layouting.
+* Akmal Ubaidillah: 95
+* Alkhalifishadiq De Khaira: 79
+* Faruq: 88
+* Sayyid Muhammad Fathan: 91
+* Nizar: 95
+* Ismail Mutqin: 94
+
+### Gemini - Tailwind - UTS - Dasar Sintaks Utility TailwindCSS.
+* Alkhalifishadiq De Khaira: 81
+* Faruq: 87
+* Sayyid Muhammad Fathan: 90
+* Ismail Mutqin: 79
+* Nizar: 95
+* Akmal Ubaidillah: 0
+
+### Gemini - Math - UTS - Operasi Hitung Bilangan Bulat Dasar.
+* Akmal Ubaidillah: 95
+* Alkhalifishadiq De Khaira: 77
+* Faruq: 83
+* Sayyid Muhammad Fathan: 90
+* Nizar: 86
+* Ismail Mutqin: 91
+
+### Claude x openAI - UTS Math - Operasi Hitung Pecahan, Konversi Desimal, dan Persen
+* Muhammad Fiqih Allano: 100
+* Abdurrohman Al Fatah: 90
+* Racky Najah Ardhani: 100
+* Muhammad Azzam Zivano: 100
+* Muhammad Akbar Alvano: 78
+* Zaid Muhammad Farhan: 90
+* Ziad Al Adzka: 80
+
+
