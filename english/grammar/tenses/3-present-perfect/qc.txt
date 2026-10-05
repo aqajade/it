@@ -1,0 +1,44 @@
+QUESTION 1
+Context Sentence: Hasan and his friends want to visit the holy city of Mecca next year.
+Jumbled Words: saved / money / have / They / saves / their / for / Hajj
+
+QUESTION 2
+Context Sentence: Aisha knows a lot about the stories of the Prophets because she loves studying them.
+Jumbled Words: books / has / learned / she / Islamic / learn / from / many
+
+QUESTION 3
+Context Sentence: The kids are happy because their grandfather is giving them a reward for fasting.
+Jumbled Words: grandfather / given / dates / has / gives / them / delicious / some
+
+QUESTION 4
+Context Sentence: The mosque looks very clean and neat for the Friday prayer.
+Jumbled Words: cleaned / carpet / the / cleans / has / clean / everyone / together
+
+QUESTION 5
+Context Sentence: Ali feels very peaceful after speaking to Allah in the middle of the night.
+Jumbled Words: prayed / Ali / prays / has / Tahajjud / tonight
+
+fathan:
+they have saved money their for hajj 
+she has learned from many books islamic 
+grandfather has given some them dates delicious 
+ali has prayed tahajjud night
+
+alkha:
+everyone has together cleaned the carpet 
+she has learned many books from islamic 
+
+nizar:
+she has learned many books from islamic 
+grandfather has given them some dates dlicious 
+the carpet has cleaned everyone together 
+
+akmal:
+she has learned many books from islamic 
+grandfather given them some delicious dates 
+
+
+1. They have saved their money for Hajj - (trap word: saves)
+2. She has learned from many Islamic books - (trap word: learn)
+3. Grandfather has given them some delicious dates - (trap word: gives)
+4. Everyone has cleaned the carpet together - (trap word: cleans)

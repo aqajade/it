@@ -1,0 +1,35 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.card-container{
+  background-color: blue;
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  justify-content: center;
+  gap:50px;
+}
+.card{
+  background-color: rgb(43, 226, 52);
+  width: 80px;
+  height: 400px;
+  box-shadow: 0px 10px 30px 10px rgb(255, 247, 0);
+}
+.top{
+  background-color: red;
+  height: 40%;
+}
+/* .bottom{
+  background-color: orangered;
+  height: 60%;
+} */
+
+

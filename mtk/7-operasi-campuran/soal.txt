@@ -1,0 +1,55 @@
+INTRO 
+desimal > pecahan 
+5.5 = 55/10
+1.25 = 125/100
+3.14 = 314/100
+1,234 = 1234/1000
+
+
+20% + 0.25 + 7/8 + 3 5/8 = 
+pecahan
+desimal
+
+20/100 + 25/100 + 7/8 + 29/8 =
+
+cara1
+45/100 + 36/8 = 360/800 + 3600/800 = 3960/800 = 396/80 = 198/40 = 99/20 = 4 19/20
+cara2
+1/5 + 1/4 + 7/8 + 29/8 = 1/5 + 1/4 + 9/2 = /20
+
+kpk dari 5, 4,dan 2 = 20
+cara1
+2,4,6,8,10,12,14,16,18,20
+4,8,12,16,20,24,28
+5,10,15,20,25,30
+cara2 - pohon prima
+5 prima? = 5
+4 prima? = 4 = 2.2 = 2^2  , (1.4 ngga karena ini pohon prima mas, 1 ga ikutan)
+2 prima? = 2
+kpk = ambil semua, kalau ada yg sama hanya ambil yg besar = 5 . 2^2 = 20
+fpb = introvert keras, cuma yg sejenis, dan yg dipilih paling kecil = krn g ada yg sejenis = 1
+
+kpk dari 3,4,5
+cara1 
+3,6,9,12
+4,8,12
+5,10,15,20
+cara2 
+3 prima? = 3
+4 prima? = 2^2
+5 prima? = 5
+kpk = 3 . 2^2 . 5 = 60
+fpb = 1
+
+
+
+###########
+
+Seorang pasien di rumah sakit harus meminum tiga jenis obat pasca-operasi dengan jadwal yang ketat. Obat A harus diminum setiap 3 jam sekali, Obat B setiap 4 jam sekali, dan Obat C setiap 5 jam sekali. Jika suster memberikan ketiga obat tersebut secara bersamaan pada pukul 06.00 pagi, pukul berapa suster akan memberikan ketiga obat itu bersamaan lagi?
+
+ketika yg ditanya hal bersamaan = kpk
+kpk 3,4,5 = 60
+
+6 + 60 = 6 + (4R12) = jam 18
+
+

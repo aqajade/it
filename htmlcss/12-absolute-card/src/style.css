@@ -11,16 +11,18 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  font-family: montserrat;
+  font-weight: 700;
 }
 .card-container{
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 .card{
   background-color: white;
-  width: 300px;
-  height: 480px;
-  box-shadow: 0px 5px 4px 0px #c6c1c1;
+  width: 380px;
+  height: 610px;    
+  box-shadow: 0px 7px 9px 5px #aaa6a6;
   /* ovh biar gambar nya ga beleber */
   /* overflow: hidden; */
   position: relative;
@@ -32,7 +34,8 @@ img{
 }
 .card-content{
   height: 56%;
-  padding: 18px;
+  padding-inline: 25px;
+  padding-block: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,17 +44,20 @@ img{
 .category{
   font-size: 9px; 
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 6.5px; 
 }
 .card-title{
   text-align: center;
-  font-size: 49px;
-  line-height: 45px;
+  font-size: 50px;
+  line-height: 53px;
+  font-family: libre bodoni;
+  font-weight: 500; 
+  letter-spacing: 7px;
 }
 .card-text{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 18px;
   align-items: center;
 }
 .separator{
@@ -59,18 +65,30 @@ img{
   width: 20px;
   background-color: #464646;
 }
+.card-description{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  
+}
+.card-description-narrow{
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 20px;
+}
+
 .card-detail{
   font-size: 8px;
   text-align: center;
 }
+
 button{
   background-color: black;
   color: white;
   border-radius: 999px;
   font-size: 6.8px;
-  padding-block: 8px;
+  padding-block: 11px;
   width: 60%;
-  letter-spacing: 2px;
+  letter-spacing: 3.5px;
 }
 .price-container{
   position: absolute;
@@ -85,5 +103,7 @@ button{
   top: -20px;
 }
 .price{
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
