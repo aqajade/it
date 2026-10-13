@@ -1,0 +1,27 @@
+🔢 Soal KPK (Kelipatan Persekutuan Terkecil)
+1. Tentukan KPK dari 6 dan 8
+2. Tentukan KPK dari 9 dan 12
+3. Tentukan KPK dari 4, 6, dan 8
+
+contoh
+Tentukan KPK dari 3, 5, dan 6
+3, prima selesai berarti = 3 
+5, prima = 5
+6, cari yg bisa dikali jadi 6 tapi JANGAN PAKE 1 = 2.3
+kpk sifatnya ekstrovert = semua jenis diambil, kalau ada yg sama yg diambil yg paling banyak
+jenis jenis nya = 3, 5, 2, 3
+yg diambil = 3 . 5 . 2 = 30 dah selesai jawabannya 30
+
+✖️ Soal FPB (Faktor Persekutuan Terbesar)
+1. Tentukan FPB dari 16 dan 24
+2. Tentukan FPB dari 20 dan 30
+3. Tentukan FPB dari 12, 18, dan 24
+
+contoh
+Tentukan FPB dari 8, 12, dan 20
+8, prima? bukan, pake pohon prima atau pohon faktor 
+12, prima? bukan, pake pohon prima atau pohon faktor 
+20, prima? bukan, pake pohon prima atau pohon faktor 
+jawabannya 4
+
+

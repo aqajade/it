@@ -1,0 +1,15 @@
+QUESTION 1
+Context Sentence: Aisha started reciting the Quran two hours ago and she is still reciting it now.
+Jumbled Words: has / Quran / been / Aisha / since / reciting / recites / the / morning
+QUESTION 2
+Context Sentence: Ahmad and his friends went to the Islamic boarding school last year and they are still studying there.
+Jumbled Words: learning / boarding / they / have / in / Islamic / learned / been / the / school / since / last / year
+QUESTION 3
+Context Sentence: Fatima began praying Dhuhr a few minutes ago and she is still in her prayer room.
+Jumbled Words: praying / Fatima / has / been / for / fifteen / prays / minutes
+QUESTION 4
+Context Sentence: The students started memorizing the Hadith at 7 AM and they are not finished yet.
+Jumbled Words: morning / hadith / have / students / the / been / since / memorizing / memorizes
+QUESTION 5
+Context Sentence: Bilal went outside to wait for the Adhan thirty minutes ago and he is still waiting out there.
+Jumbled Words: waiting / for / Bilal / has / calls / the / been / adhan / thirty / minutes / for
