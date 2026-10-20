@@ -28,6 +28,9 @@ body {
   height: 20px;
   top: 8px;
   left: -5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 /* width: 404px; */
