@@ -64,11 +64,12 @@ body {
 }
 h2{
   font-weight: 100;
+  font-size: 21px;
 }
 .price-container{
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 .voucher-container{
   padding-inline-start: 5px;
@@ -85,8 +86,20 @@ h2{
 }
 .voucher-text{
   color: #ec7a89;
-  font-weight: 800;
+  font-weight: 900;
+  font-size: 18px;
 }
+.price{
+  text-decoration: line-through;
+  color: grey;
+}
+.description{
+  color: orange;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+
 
 
 
