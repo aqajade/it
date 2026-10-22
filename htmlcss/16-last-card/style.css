@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Open Sauce One';
+  src: url('./assets/fonts/open-sauce-one/OpenSauceOne-Regular.ttf');
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +12,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  font-family: 'Open Sauce One';
 }
 .card-container {
   background-color: white;
@@ -18,12 +23,12 @@ body {
 .card{
   background-color: yellow;
   height: 530px;
-  width: 404px;
+  width: 300px;
   position: relative;
 }
-.discount-container{
+.discount-top{
   position: absolute;
-  background-color: #F94D63;
+  background-color: #f56d7f;
   width: 37px;
   height: 20px;
   top: 8px;
@@ -31,7 +36,59 @@ body {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  display: grid;
+  place-items: center;
+}
+.discount-bottom{
+  width: 5px;
+  height: 5px;
+  background-color: #F94D63;
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  border-bottom-left-radius: 50%;
+}
+.discount-top p{
+  color: white;
+  font-size: 10px;
+  font-weight: 900;
+}
+.top-img{
+  width: 100%;
+}
+.card-bottom{
+  padding-block: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+h2{
+  font-weight: 100;
+}
+.price-container{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.voucher-container{
+  padding-inline-start: 5px;
+  padding-inline-end: 9px;
+  display: flex;
+  align-items: center;
+  /* background-color: #fcc6cd; */
+  border-radius: 8px;
+  border: solid 2px #ec7a89;
+  padding-block: 0px;
+}
+.voucher-container img{
+  width: 26px;
+}
+.voucher-text{
+  color: #ec7a89;
+  font-weight: 800;
 }
 
-/* width: 404px; */
-/* height: 530px; */
+
+
+/* width: 530px; */
+/* height: 300px; */
