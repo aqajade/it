@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: aqua;
+  background-color: white;
   display: grid;
   place-items: center;
   min-height: 100vh;
@@ -21,46 +21,48 @@ body {
   justify-content: center;
 }
 .card{
-  background-color: yellow;
+  background-color: white;
   height: 530px;
   width: 300px;
   position: relative;
+  border-radius: 5px;
 }
 .discount-top{
   position: absolute;
-  background-color: #f56d7f;
-  width: 37px;
-  height: 20px;
+  background-color: #f76175;
+  width: 65px;
+  height: 35px;
   top: 8px;
-  left: -5px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  left: -10px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
   display: grid;
   place-items: center;
 }
 .discount-bottom{
-  width: 5px;
-  height: 5px;
-  background-color: #F94D63;
+  width: 10px;
+  height: 10px;
+  background-color: #f1455c;
   position: absolute;
-  bottom: -5px; 
+  bottom: -10px; 
   left: 0;
   border-bottom-left-radius: 50%;
 }
 .discount-top p{
   color: white;
-  font-size: 10px;
-  font-weight: 900;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .top-img{
   width: 100%;
 }
 .card-bottom{
-  padding-block: 10px;
+  padding-block: 15px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 h2{
   font-weight: 100;
@@ -72,32 +74,77 @@ h2{
   gap: 10px;
 }
 .voucher-container{
-  padding-inline-start: 5px;
+  padding-inline-start: 9px;
   padding-inline-end: 9px;
   display: flex;
   align-items: center;
   /* background-color: #fcc6cd; */
   border-radius: 8px;
-  border: solid 2px #ec7a89;
-  padding-block: 0px;
+  border: solid 2.5px #f0929f;
+  padding-block: 4px;
+  gap: 6px;
+  background-color: #fbf0f2;
 }
 .voucher-container img{
   width: 26px;
 }
 .voucher-text{
-  color: #ec7a89;
+  color: #e65164;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 21px;
 }
 .price{
   text-decoration: line-through;
-  color: grey;
+  color: rgb(175, 170, 170);
+  font-size: 16px;
 }
 .description{
   color: orange;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 16.5px;
 }
+.rating-container{
+  display: flex;
+  align-items: center;
+  color: gray;
+  gap: 8px;
+  font-size: 20px;
+}
+.star-container{
+  display: flex;
+  margin-bottom: -5px;
+  gap: 5px;
+}
+.rating-container img{
+  width: 26px;
+}
+.dot{
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.store-container{
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 21px;
+  gap: 5px;
+}
+.store-container img{
+  width: 25px;
+}
+.three-dots{
+  display: flex;
+  gap: 4.5px;
+  justify-content: end;
+  align-items: end;
+}
+.three-dots .dot{
+  width: 3px;
+  height: 3px;
+}
+
 
 
 
