@@ -10,23 +10,67 @@
   grid tujuannya untuk ngengahin object lebih simple dari flex
   kalau flex harus pake flex justify-center dan items-center (3 class)
   kalau grid cukup grid place-items-center (2 class)
+  whitespace-pre-line supaya ga perlu pakai <br> ketika mau nambah baris baru
   -->
   <!-- grid min-h-screen place-items-center -->
-  <body class="font-['Times_New_Roman',Times,serif] grid h-screen place-items-center bg-[url('./images/bg.png')] bg-no-repeat bg-cover bg-center bg-fixed">
-    
-
-  
+  <body
+    class="font-['Times_New_Roman',Times,serif] grid h-screen place-items-center bg-[url('./images/bg.png')] bg-no-repeat bg-cover bg-center bg-fixed"
+  >
+    <div class="card-container flex justify-center w-full bg-amber-300">
+      <div class="card w-61.25 h-101.25 overflow-hidden rounded-xl">
+        <!-- IMAGE -->
+        <img src="./images/post1.png" alt="mountain" />
+        <!-- CONTENT -->
+        <div class="text-center flex flex-col h-42.5 px-5 py-5 bg-white">
+          <p class="text-[#FF076E] text-xs">4 days ago</p>
+          <h3 class="font-semibold text-2xl">Post One</h3>
+          <p class="text-xs leading-4 text-[#b6afaf] whitespace-pre-line">
+            Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis
+            illum maxime quod deserunt eligendi dolor
+          </p>
+        </div>
+        <!-- STATS -->
+        <div class="flex text-white text-center bg-[#FF076E] h-16">
+          <div class="grid grid-cols-3 w-full place-items-center">
+            <div class="grid bg-amber-300 place-items-center">
+              <div class="stats-text flex flex-col">
+                <p class="stats-value">
+                  test
+                </p> 
+                <p class="stats-description text-[10px]">READ</p>
+              </div>
+            </div>
+            <div class="grid bg-amber-300 place-items-center">
+              <div class="stats-text flex flex-col">
+                <p class="stats-value">
+                  test
+                </p> 
+                <p class="stats-description text-[10px]">VIEWS</p>
+              </div>
+            </div>
+            <div class="grid bg-amber-300 place-items-center">
+              <div class="stats-text flex flex-col">
+                <p class="stats-value">
+                  test
+                </p> 
+                <p class="stats-description text-[10px]">COMMENTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
 <!-- 245x405-->
- <!-- 
+<!-- 
 172+170+64
  -->
 
 <!-- 
 
-• Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae omnis illum maxime quod deserunt eligendi dolor
+• Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor
 
 • Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor
 
@@ -34,8 +78,7 @@
 
 -->
 
-
- <!-- 
+<!-- 
  #FF076E
  #FF4D07
  
