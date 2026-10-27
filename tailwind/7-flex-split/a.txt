@@ -1,0 +1,29 @@
+          <!-- GRID CONTAINER -->
+          <div class="grid grid-cols-3 w-full place-items-center ">
+            <!-- STATS 1 -->
+            <div class="grid place-items-center w-full h-full border border-t-0 border-l-0 border-b-0 border-r-[#6d68688a] "> 
+              <div class="stats-text flex flex-col -space-y-1">  
+                <p class="stats-value">
+                  4<sup class="text-[65%]">m</sup>   
+                </p> 
+                <p class="stats-description text-[9px]">READ</p>
+              </div>
+            </div>
+            <!-- STATS 2 -->
+            <div class="grid place-items-center w-full h-full border border-t-0 border-l-0 border-b-0 border-r-[#6d68688a]">
+              <div class="stats-text flex flex-col -space-y-1">  
+                <p class="stats-value">
+                  5132
+                </p> 
+                <p class="stats-description text-[9px]">VIEWS</p>
+              </div>
+            </div>
+            <div class="grid place-items-center">
+              <div class="stats-text flex flex-col -space-y-1">  
+                <p class="stats-value">
+                  32
+                </p> 
+                <p class="stats-description text-[9px]">COMMENTS</p>
+              </div>
+            </div>
+          </div>
