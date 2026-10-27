@@ -1,0 +1,24 @@
+QUESTION 1
+Context Sentence: Last night, Budi read a story about Prophet Muhammad.
+Jumbled Words: slept / Prophet / read / book / about / He / the / a
+Trap words: 1 word
+
+QUESTION 2
+Context Sentence: Sara prayed at the mosque yesterday afternoon.
+Jumbled Words: prayed / pray / mosque / went / She / to / the / and
+Trap words: 1 word
+
+QUESTION 3
+Context Sentence: The children learned Al-Quran at the Islamic school last week.
+Jumbled Words: Iqra / read / They / Quran / Al / the / reads / and
+Trap words: 1 word
+
+QUESTION 4
+Context Sentence: During Ramadan, my family broke the fast together.
+Jumbled Words: fast / ate / broke / we / dates / We / and / drank
+Trap words: 1 word
+
+QUESTION 5
+Context Sentence: Fasting made Ahmad feel close to Allah.
+Jumbled Words: happy / Allah / felt / He / to / prayed / close / felt
+Trap words: 1 word

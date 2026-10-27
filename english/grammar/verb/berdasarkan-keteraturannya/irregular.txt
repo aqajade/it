@@ -5,3 +5,10 @@ run ran run
 swim swam swum 
 read read read
 eat ate eaten
+take took taken
+get got gotten
+bear bore born
+sleep slept slept 
+go went gone
+feel felt felt
+break broke broken
