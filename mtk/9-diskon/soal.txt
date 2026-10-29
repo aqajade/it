@@ -1,0 +1,27 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SOAL PAK ARYA
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+harga 15jt , diskon awal 20%, diskon kedua 10% setelah diskon awal
+1) tentukan nilai diskon yg pertama?
+2) tentukan nilai akhir setelah dikurangi diskon pertama?
+3) tentukan nilai diskon yg kedua dari total nilai diskon yg pertama?
+4) tentukan harga final?
+5) ahmad punya 11jt, bisa beli ga? klo kurang kurang nya brp kalo lebih lebihnya brp?
+
+1) trik terbaik, itu 10% nya tinggal dibagi 10 atau 0 nya diilangin 1
+15jt 10% nya = 1,5jt
+20% nya = 3jt
+2) 12jt
+3) berarti setelah diskon awal yg jadi 12jt, dapet 10% diskon kedua, diskon yg didapat adalah 10% berarti 10% dari 12jt adalah 1,2jt
+4) 12jt - 1,2jt = 10,8 jt = 10jt 8ratus rb
+5) bisa dan duitnya masih sisa 200rb, mayan
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SOAL BONUS
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+pertanyaan racky: kalau persennya belakangnya ga 0
+trik terbaiknya 1% tinggal dibagi 100 atau 0 nya diilangin 2
+contoh 7% dari 1jt 
+cari 1% nya dulu dari 1jt = 10ribu
+1% = 10ribu
+7% = 70ribu

@@ -15,6 +15,9 @@ link card figma:
   v3 - mas absol 
   https://www.figma.com/design/BphqEVEORFII9kb6c8vIqY/%F0%9F%93%90-Absol--Figly--How-to-best-use-Absolute-Position-with-Auto-Layout-%F0%9F%93%90--Community-?node-id=0-1&p=f&t=HXbQgTp9cWQMxbgv-0
 
+  v4 - mobil ijo
+  https://dribbble.com/shots/27638213-Totrox-Luxury-Car-Rental-Booking-Platform
+
 google fonts:
   https://fonts.google.com
 
@@ -37,3 +40,6 @@ https://www.google.com/imgres?q=product%20card%20website&imgurl=https%3A%2F%2Fim
 
 ### udah beres
 https://www.google.com/search?sca_esv=93ab4b8f7168ead7&rlz=1C1CHZN_enID1202ID1202&sxsrf=APpeQnsNOy5ddfLdvk_42c1_GkKhq-qSUQ:1788829064484&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmSm18uaHUIcIw77cYBDAp2S_EK0zZU1C-EyNUuO0jdFxMWTDmnTbhx04BCo-R2s6Wu44rul1_RElGGjacFY99FKsRCVbRUnmdBMi_yk6vDXV2QHYLWmxPLdktTWHfyC1WNBWzPxa1YBE-E7OOh_i0aAEJrXw&q=product+card+website&sa=X&ved=2ahUKEwjx9M7H492WAxWHaCoJHXmbL6gQtKgLegQIGxAB&biw=1366&bih=617&dpr=1#sv=CAMSURoyKhBlLU41Ykk3c29CbGxPaUtNMg5ONWJJN3NvQmxsT2lLTToOaWk5MzNzS2NVcXRzeE0gBCoXCgFzEhBlLU41Ykk3c29CbGxPaUtNGAEwARgHIIWhq7AJSggQARgBIAEoAQ
+
+
+

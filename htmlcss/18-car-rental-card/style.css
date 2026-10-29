@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.card {
+  position: relative;
+  width: 515px;
+  height: 165px;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 3px 0px #00000041;
+  overflow: hidden;
+  display: flex;
+  gap: 16px;
+  transition: 300ms;
+}
+.card:hover {
+  box-shadow: 0px 1px 20px 1px #00000046;
+  transform: translateY(18px);
+  transition: 300ms;
+}
+.card > img {
+  height: full;
+  width: 185px;
+  /* ingat  */
+  display: block;
+  border-radius: 16px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+/* 
+#2E3235 
+515 x 165
+w gambar 185
+luar 8 trbl
+gap 16
+gap teks konten 16
+gap titik 12
+*/
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: #2E3235;
+  border-radius: 50%;
+}
+.card-info p {
+  font-size: 13px;
+  color: #2E3235;
+  font-weight: 600;
+}
+.card-detail {
+  display: flex;
+  gap: 27px;
+}
+.card-detail img{
+  height: 16px;
+  width: auto;
+}
+.card-detail p {
+  font-size: 13px;
+  color: #2E3235;
+}
+.transmission-detail{
+  display: flex;
+  gap: 10px;
+}
+.fuel-detail{
+  display: flex;
+  gap: 10px;
+}
+.price {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+.price-value {
+  font-size: 27px;
+  font-weight: 700;
+}
+.price-detail {
+  font-size: 13px;
+  color: #2E3235;
+  padding-bottom: 3px;
+}
+a {
+  right: 16px;
+  bottom: 20px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  height: 40px;
+  width: 40px;
+  background-color: #1D2225;
+  display: grid;
+  place-items: center;
+  border-radius: 99px;
+  font-weight: 600;
+}
+a img{
+  width: 16px;
+}
+/* 
+#DC143B 
+265 x 395
+luar 24,18,30,18
+gapatas14, gapbawah28
+h-gambar175
+*/

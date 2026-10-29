@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Product UI Card - Absolute Positioning</title>
+    <style>
+        /* Base Reset & Background */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        /* CARD MAIN CONTAINER */
+        .product-card {
+            width: 360px;
+            height: 480px;
+            background-color: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+            overflow: hidden;
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            position: relative; /* Anchor utama untuk 14 elemen absolute */
+        }
+
+        /* 14 ELEMEN DENGAN ABSOLUTE POSITIONING */
+
+        /* 1. Gambar Utama Produk (Mengisi area atas kartu) */
+        .el-product-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        /* 2. Overlay Gradasi Gelap (Agar teks di atas gambar terbaca jelas) */
+        .el-img-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 240px;
+            background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.2) 100%);
+            z-index: 2;
+        }
+
+        /* 3. Badge Kategori / Status (Top Left) */
+        .el-badge-status {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #0f172a;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            z-index: 3;
+        }
+
+        /* 4. Tombol Wishlist / Favorit (Top Right) */
+        .el-btn-wishlist {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 36px;
+            height: 36px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 50%;
+            font-size: 16px;
+            color: #ef4444;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            z-index: 3;
+        }
+
+        /* 5. Rating Badge (Mengambang di pojok kanan bawah gambar) */
+        .el-rating-badge {
+            position: absolute;
+            top: 195px;
+            right: 20px;
+            background-color: #ffb703;
+            color: #0f172a;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 8px;
+            z-index: 3;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* 6. Judul / Nama Produk */
+        .el-product-title {
+            position: absolute;
+            top: 265px;
+            left: 24px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #0f172a;
+            margin: 0;
+            z-index: 3;
+        }
+
+        /* 7. Sub-judul / Brand / Tipe */
+        .el-product-subtitle {
+            position: absolute;
+            top: 295px;
+            left: 24px;
+            font-size: 13px;
+            color: #64748b;
+            z-index: 3;
+        }
+
+        /* 8. Fitur Utama 1 (Spesifikasi Mesin / Transmisi) */
+        .el-spec-1 {
+            position: absolute;
+            top: 330px;
+            left: 24px;
+            font-size: 12px;
+            color: #334155;
+            background-color: #f8fafc;
+            padding: 6px 12px;
+            border-radius: 8px;
+            border: 1px solid #e2e3e5;
+            z-index: 3;
+        }
+
+        /* 9. Fitur Utama 2 (Kapasitas Penumpang) */
+        .el-spec-2 {
+            position: absolute;
+            top: 330px;
+            left: 125px;
+            font-size: 12px;
+            color: #334155;
+            background-color: #f8fafc;
+            padding: 6px 12px;
+            border-radius: 8px;
+            border: 1px solid #e2e3e5;
+            z-index: 3;
+        }
+
+        /* 10. Fitur Utama 3 (Bahan Bakar) */
+        .el-spec-3 {
+            position: absolute;
+            top: 330px;
+            left: 220px;
+            font-size: 12px;
+            color: #334155;
+            background-color: #f8fafc;
+            padding: 6px 12px;
+            border-radius: 8px;
+            border: 1px solid #e2e3e5;
+            z-index: 3;
+        }
+
+        /* 11. Label Harga Awal / Diskon (Coretan Kecil) */
+        .el-price-old {
+            position: absolute;
+            bottom: 60px;
+            left: 24px;
+            font-size: 12px;
+            color: #94a3b8;
+            text-decoration: line-through;
+            z-index: 3;
+        }
+
+        /* 12. Label Harga Utama Aktif */
+        .el-price-main {
+            position: absolute;
+            bottom: 28px;
+            left: 24px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #0f172a;
+            z-index: 3;
+        }
+
+        /* 13. Label Keterangan Harga (Per hari / Per Unit) */
+        .el-price-period {
+            position: absolute;
+            bottom: 34px;
+            left: 155px;
+            font-size: 13px;
+            color: #64748b;
+            z-index: 3;
+        }
+
+        /* 14. Tombol Utama Aksi / Booking / Beli (Bottom Right) */
+        .el-btn-action {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            background-color: #2563eb;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+            transition: background-color 0.2s;
+            z-index: 3;
+        }
+
+        .el-btn-action:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- COMPONENT CARD -->
+    <div class="product-card">
+        
+        <!-- Elemen 1: Gambar Utama -->
+        <img class="el-product-img" src="https://unsplash.com" alt="Porsche Taycan">
+        
+        <!-- Elemen 2: Gambar Overlay Gelap -->
+        <div class="el-img-overlay"></div>
+        
+        <!-- Elemen 3: Status Badge -->
+        <div class="el-badge-status">Tersedia</div>
+        
+        <!-- Elemen 4: Tombol Wishlist -->
+        <button class="el-btn-wishlist">♥</button>
+        
+        <!-- Elemen 5: Rating Badge -->
+        <div class="el-rating-badge">★ 4.9</div>
+        
+        <!-- Elemen 6: Nama Produk -->
+        <h3 class="el-product-title">Porsche Taycan 4S</h3>
+        
+        <!-- Elemen 7: Sub-judul/Brand -->
+        <span class="el-product-subtitle">Sport E-Class · Nexa Rent</span>
+        
+        <!-- Elemen 8: Spesifikasi 1 -->
+        <div class="el-spec-1">⚡ Automatic</div>
+        
+        <!-- Elemen 9: Spesifikasi 2 -->
+        <div class="el-spec-2">👤 4 Kursi</div>
+        
+        <!-- Elemen 10: Spesifikasi 3 -->
+        <div class="el-spec-3">🔋 Electric</div>
+        
+        <!-- Elemen 11: Harga Coret -->
+        <div class="el-price-old">Rp 3.500.000</div>
+        
+        <!-- Elemen 12: Harga Utama -->
+        <div class="el-price-main">Rp 2.890.000</div>
+        
+        <!-- Elemen 13: Keterangan Waktu Harga -->
+        <div class="el-price-period">/ hari</div>
+        
+        <!-- Elemen 14: Tombol Aksi Utama -->
+        <button class="el-btn-action">Sewa Sekarang</button>
+
+    </div>
+
+</body>
+</html>
