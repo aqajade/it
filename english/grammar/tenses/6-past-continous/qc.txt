@@ -1,0 +1,24 @@
+QUESTION 1
+Context Sentence: Ahmad was very happy at the mosque yesterday.
+Kata yang Diacak:
+was / Quran / reading / Ahmad / the / reads / yesterday
+
+QUESTION 2
+Context Sentence: Fatimah was studying Islam with her sister last night.
+Kata yang Diacak:
+was / her / studying / Islam / Fatimah / sister / were / with
+
+QUESTION 3
+Context Sentence: The students were very quiet during the lesson.
+Kata yang Diacak:
+were / listening / students / the / teacher / was / carefully
+
+QUESTION 4
+Context Sentence: My father was teaching me about prayer yesterday.
+Kata yang Diacak:
+was / father / teaching / me / about / prayers / were / yesterday
+
+QUESTION 5
+Context Sentence: Aisha was helping her mother prepare food for iftar.
+Kata yang Diacak:
+was / Aisha / helping / her / mother / prepare / prepares / food / iftar

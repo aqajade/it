@@ -1,7 +1,7 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 SOAL PAK ARYA
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
-harga 15jt , diskon awal 20%, diskon kedua 10% setelah diskon awal
+harga 15jt , diskon awal 20%, diskon kedua 10% s  etelah diskon awal
 1) tentukan nilai diskon yg pertama?
 2) tentukan nilai akhir setelah dikurangi diskon pertama?
 3) tentukan nilai diskon yg kedua dari total nilai diskon yg pertama?
