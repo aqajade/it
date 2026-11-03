@@ -13,27 +13,77 @@ Di akhir respons, berikan kata-kata penyemangat untuk anak-anak dan minta mereka
 
 ######################################################
 
-Buatkan 5 soal tantangan bahasa Inggris berjenis "Build a Sentence" 
+Buatkan 5 soal tantangan bahasa Inggris berjenis **"Build a Sentence"**.
 
-Ikuti instruksi pembuatan soal di bawah ini secara ketat:
-1. TENSES : SIMPLE PAST TENSE 
-2. TINGKAT KESULITAN: sd kelas 6
-3. TEMA/TOPIK: diniyah.
-4. KATA JEBAKAN: pakai 1 kata jebakan.
-5. TERJEMAHAN: Jangan berikan terjemahan bahasa Indonesia untuk kalimat utama maupun kata yang diacak.
+Ikuti seluruh instruksi berikut dengan ketat. Pastikan setiap soal sudah diperiksa sebelum ditampilkan.
 
-FORMAT OUTPUT: Berikan 1 Kalimat Utama (Context Sentence) terlebih dahulu, lalu berikan daftar "Kata yang Diacak" di bawahnya dalam bentuk poin-poin yang jelas. Jangan lupa answer key nya diakhir, berikut contoh sample yang telah kubuat untuk contoh, tolong ya: 
+### 1. SPESIFIKASI SOAL
+- **TENSES:** Past Continuous Tense.
+- **TINGKAT KESULITAN:** SD kelas 6.
+- **TEMA/TOPIK:** Diniyah (Islamic studies), seperti masjid, salat, Al-Quran, Ramadan, puasa, wudu, belajar Islam, dan kegiatan keagamaan lainnya.
+- **KATA JEBAKAN:** Tepat 1 kata jebakan untuk setiap soal.
+- **TERJEMAHAN:** Jangan memberikan terjemahan bahasa Indonesia untuk Context Sentence maupun kata-kata yang diacak.
+
+### 2. ATURAN PEMBUATAN SOAL
+
+**A. Context Sentence**
+- Buat satu kalimat bahasa Inggris yang menjadi konteks soal.
+- Kalimat harus sesuai dengan Past Continuous Tense.
+- Gunakan kosakata yang mudah dipahami siswa kelas 6 SD.
+- Context Sentence harus sesuai dengan kalimat jawaban yang ditargetkan.
+
+**B. Jumbled Words (Kata yang Diacak)**
+- Tampilkan kata-kata yang diperlukan untuk membentuk kalimat jawaban yang benar.
+- Acak urutannya agar siswa harus menyusun kembali kata-kata tersebut.
+- Gunakan format pemisah `/`, bukan bullet points.
+- Setiap kata dalam kalimat jawaban WAJIB tersedia di dalam Jumbled Words.
+- **Jumlah kemunculan setiap kata harus sama persis dengan jumlah kemunculannya dalam kalimat jawaban.**
+- Jangan sampai ada kata yang kurang, berlebih, atau terduplikasi secara tidak sengaja.
+- Tambahkan tepat 1 kata jebakan (trap word) yang tidak diperlukan dalam jawaban.
+- Kata jebakan harus masuk akal sebagai pengecoh, misalnya penggunaan *was/were*, bentuk verb yang salah, atau pilihan kata lain yang tidak sesuai tata bahasa.
+- Jangan memasukkan kata jebakan yang justru memungkinkan terbentuknya jawaban alternatif yang sama-sama benar.
+
+**C. Answer Key**
+- Berikan jawaban lengkap untuk kelima soal.
+- Cantumkan satu kata jebakan yang benar untuk setiap nomor.
+- Jawaban harus menggunakan seluruh kata yang diperlukan dari Jumbled Words dan tidak menggunakan kata yang tidak tersedia.
+- Jangan mengubah kalimat jawaban setelah kata-katanya diacak.
+
+### 3. FORMAT OUTPUT
 
 QUESTION 1
-Context Sentence: Ali and his father love going to the mosque.
-Jumbled Words: together / walk / to / They / mosque / walks / the
-Trap words: 1 word
+
+Context Sentence: [Kalimat konteks bahasa Inggris]
+
+Jumbled Words: word / word / word / word / word / word
 
 QUESTION 2
-Context Sentence: Learning about Islam is very fun.
-Jumbled Words: of / fast / the / I / Ramadan / fasts / month / in
-Trap words: 1 word
 
-answer key:
-1) They walk to the mosque together - (trap word: walks)
-2) I fast in the month of Ramadan. - (trap word: fasts)
+Context Sentence: [Kalimat konteks bahasa Inggris]
+
+Jumbled Words: word / word / word / word / word / word
+
+Lanjutkan hingga QUESTION 5.
+
+### ANSWER KEY
+
+1) [Correct sentence] - (trap word: [word])
+2) [Correct sentence] - (trap word: [word])
+3) [Correct sentence] - (trap word: [word])
+4) [Correct sentence] - (trap word: [word])
+5) [Correct sentence] - (trap word: [word])
+
+### 4. WAJIB MELAKUKAN VALIDASI SEBELUM OUTPUT
+
+Sebelum menampilkan soal, lakukan pemeriksaan internal untuk setiap nomor:
+
+1. Pastikan kalimat jawaban benar-benar menggunakan Past Continuous Tense.
+2. Hitung seluruh kata dalam kalimat jawaban.
+3. Cocokkan setiap kata beserta jumlah kemunculannya dengan Jumbled Words.
+4. Pastikan hanya ada tepat 1 kata jebakan.
+5. Pastikan jika kata jebakan dibuang, seluruh kata yang tersisa dapat disusun menjadi jawaban yang benar.
+6. Pastikan tidak ada kata yang hilang, termasuk kata kecil seperti *a, an, the, to, for, in, on, with,* dan *of*.
+7. Pastikan Context Sentence sesuai dengan jawaban yang ditargetkan.
+8. Pastikan tidak ada jawaban alternatif yang juga benar dengan menggunakan kata jebakan.
+
+**PENTING:** Jangan menampilkan proses validasi. Tampilkan hanya soal dan Answer Key. Jika ada satu saja pemeriksaan yang gagal, perbaiki soal tersebut sebelum memberikan output final.
