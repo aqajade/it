@@ -1,0 +1,17 @@
+Harga normal laptop: Rp28.000.000
+
+Sebuah toko memberikan promo sebagai berikut:
+1. Diskon pertama 25% dari harga normal.
+2. Diskon kedua 10%, tetapi hanya berlaku jika harga setelah diskon pertama minimal Rp20.000.000.
+3. Diskon ketiga 10%, tetapi maksimal potongan harga adalah Rp2.000.000.
+4. Voucher Rp1.500.000, tetapi hanya bisa digunakan jika harga setelah seluruh diskon minimal Rp18.000.000.
+5. Biaya pengiriman Rp250.000, ditambahkan setelah seluruh diskon dan voucher diperhitungkan.
+Budi memiliki uang sebesar Rp19.000.000.
+
+Pertanyaan:
+
+Jelaskan secara berurutan:
+- Berapa harga laptop setelah setiap diskon?
+- Apakah Budi memenuhi syarat untuk mendapatkan seluruh promo?
+- Berapa total uang yang harus dibayarkan Budi setelah ditambah ongkir?
+- Apakah uang Budi cukup untuk membeli laptop tersebut? Jika tidak, berapa kekurangannya? Jika lebih, berapa sisanya?

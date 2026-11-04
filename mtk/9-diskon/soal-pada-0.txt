@@ -1,0 +1,14 @@
+Ahmad ingin membeli leptop utk kebutuhan sekolah 
+harga normal leptop: 24.000.000
+sebuah toko memberi diskon :
+1) diskon pertama 20% = jadi 19200000 
+2) diskon kedua 15% tapi berlaku jika harga setelah diskon pertama minimal 18.000.00
+= berarti jadi 16320000 (gara-gara 15/100 * 19200000 terus dikurang)
+3) diskon ke 3 10% tapi maksimal potongan harga setelah diskon ke 2 1,5 jt
+= berarti jadi 14820000 (gara-gara 16320000-1500000)
+4) vocer 1jt tp min. harga setelah diskon 123 min.15jt, 
+= berarti tetep 14820000 (gara-gara min 15jt baru bisa dapet vocer 1jt nya)
+5) biaya pengiriman setelah perhitungan semua diskon dan vocher yang telah memenuhi syarat = 180rb
+= berarti 14820000+180000 = 15000000
+Ahmad punya uang : 15 jt
+soal : jelaskan apakah ahmad bisa membeli leptop tsb jika lebih lebihnya brp jika kurang kurangnya brp? hoki pas banget dia bisa kebeli
