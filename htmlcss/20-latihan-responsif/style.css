@@ -1,0 +1,15 @@
+/* BAWAAN */
+h1{
+  color: tomato;
+}
+
+
+/* 1024 */
+@media (min-width: 1024px) {
+  body{
+    background-color: blue;
+  }
+  h1{
+    color: aqua;
+  }
+}

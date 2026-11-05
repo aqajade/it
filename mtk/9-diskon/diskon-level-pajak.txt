@@ -1,0 +1,36 @@
+Fathan Ingin membeli laptop utk kebutuhan sekolah dan design
+Sebuah toko memberikan program promo yang lebih kompleks, mencakup diskon bertingkat, voucher, cashback, pajak, dan biaya pengiriman.
+Harga normal laptop adalah Rp24.000.000.
+### Ketentuan Promo:
+1\. Diskon Pertama: 20% dari harga normal laptop. 
+{berarti 24jt - 4.8jt = 19.2jt}
+2\. Diskon Kedua: 15% dari harga setelah diskon pertama. Diskon ini hanya berlaku apabila harga setelah diskon pertama minimal Rp18.000.000. 
+{berarti dapet diskon kedua gara-gara setelah diskon pertama 19.2jt dimana itu > 18jt jadi dapet lah dia diskonnya
+jadi dia bayar 16320000
+}
+3\. Diskon Ketiga: 10% dari harga setelah diskon kedua, tetapi nominal potongan maksimal hanya Rp1.500.000.
+{berarti 16320000-1500000=14820000}
+4\. Voucher Tambahan: Rp1.000.000. Voucher hanya dapat digunakan apabila harga laptop setelah seluruh diskon bertingkat, tetapi sebelum pajak, cashback, dan biaya pengiriman, minimal Rp15.000.000.
+{berarti gadapet gara-gara 14820000 < 15jt}
+5\. Cashback (pengembalian saldo): 5% dari harga setelah voucher (final). Cashback diberikan setelah pembayaran dan tidak mengurangi total pembayaran awal.
+{berarti cashback ini kita dapet duitnya tapi ga mengurangi harga yg dibayar ke kasir, karena dikasih nya itu setelah kita bayar ke kasir bukan sebelum
+cashbacknya = 741000
+}
+6\. Pajak (PPN): 11% dari harga setelah seluruh diskon dan voucher.
+{berarti setelah pajaknya = 14820000*11/100= 14820000+1630200 = 16450200}
+7\. Biaya Pengiriman: Rp180.000, ditambahkan setelah pajak.
+{berarti 16450200+180000=16630200}
+### Pertanyaan Esai
+Hitunglah:
+1. Total pembayaran akhir yang harus dikeluarkan Fathan. {16630200}
+2. Besar cashback yang akan diterima. {741000}
+3. Total biaya efektif (harga bersih setelah cashback). {16630200-741000=15889200}
+4. Jika anggaran Fathan maksimal Rp16.000.000, apakah anggaran tersebut mencukupi? Jelaskan alasan dan berapa sisa uang atau kekurangannya. {ga cukup dan kukurangannya = 16630200-16000000 = 630200}
+### Petunjuk Pengerjaan:
+- Kerjakan seluruh diskon secara berurutan.
+- Setiap diskon dihitung dari harga setelah diskon sebelumnya.
+- Periksa syarat minimal transaksi sebelum menerapkan potongan atau voucher.
+- Perhatikan batas maksimum nominal diskon.
+- Hitung pajak setelah voucher, dan tambahkan biaya pengiriman di akhir.
+- Hitung cashback sesuai persentase, lalu tentukan total biaya efektif.
+- Tunjukkan langkah perhitungan dan alasan matematis secara lengkap dan sistematis.
