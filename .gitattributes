@@ -1,6 +1,7 @@
 # Output CSS Tailwind: tetap LF
 src/output.css text eol=lf
 tailwind/1-tailwind-offline/src/output.css text eol=lf
+mtk/9-diskon/pr-openAIxClaude.txt text eol=lf
 
 # Default: Git mendeteksi file text secara otomatis
 * text=auto

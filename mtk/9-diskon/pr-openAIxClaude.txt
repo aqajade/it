@@ -1,3 +1,4 @@
+ujian
 Harga normal laptop: Rp28.000.000
 
 Sebuah toko memberikan promo sebagai berikut:
@@ -9,7 +10,6 @@ Sebuah toko memberikan promo sebagai berikut:
 Budi memiliki uang sebesar Rp19.000.000.
 
 Pertanyaan:
-
 Jelaskan secara berurutan:
 - Berapa harga laptop setelah setiap diskon?
 - Apakah Budi memenuhi syarat untuk mendapatkan seluruh promo?
