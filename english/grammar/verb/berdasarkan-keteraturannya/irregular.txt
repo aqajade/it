@@ -12,3 +12,6 @@ sleep slept slept
 go went gone
 feel felt felt
 break broke broken
+write wrote written
+drink drank drunk
+buy bought bought
