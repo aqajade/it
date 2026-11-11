@@ -16,10 +16,42 @@
         class="mx-auto px-8.5 max-w-[calc(1440+34px-134px)] relative flex justify-between items-center"
       >
         <!-- CAPSULE WRAPPER -->
-        <div class="capsule-wapper md:bg-white/30 transition duration-300 rounded-full w-full">
+        <div
+          class="capsule-wapper md:bg-white/30 transition duration-300 rounded-full w-full flex justify-between items-center"
+        >
+          <!-- HEADER TITLE -->
           <h2 class="text-white font-bold">
             <span class="text-[#505dff]">O</span>BJECTOR
           </h2>
+
+          <!-- NAV MENU -->
+          <nav
+            class="translate-x-full lg:translate-x-0 right-0 lg:static lg:w-88.25 absolute top-[calc(100%+16px)] w-[calc(100%-2*16px)] h-fit"
+          >
+            <ul class="flex flex-col lg:flex-row gap-3">
+              <li>
+                <a href=""></a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- CONTACT LINK -->
+          <a
+            class="absolute translate-x-full rounded-full flex items-center justify-center right-0 lg:translate-x-0 lg:static button top-[calc(100%+208px)] h-12 w-[calc(100%-2*16px)] lg:w-40 bg-white"
+            href="#contact"
+            >SIGN UP</a
+          >
+
+          <!-- HAMBURGER BUTTON -->
+          <button class="lg:hidden focus:outline-none w-5.25 h-2.75">
+            <img
+              id="toggleMenu"
+              class="lg:hidden"
+              aria-label="Open menu"
+              src="./assets/icons/hamburger.png"
+              alt="open menu"
+            />
+          </button>
         </div>
       </div>
     </header>
