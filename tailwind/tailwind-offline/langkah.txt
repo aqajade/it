@@ -18,3 +18,9 @@ paste di package.json sempilin bagian ini:
 },
 
 language mode ya diubah jd tailwind css aja biar g error
+
+copy link ini:
+https://github.com/aqajade/it/tree/main/tailwind/tailwind-offline/src/fontawesome/
+buka link ini:
+https://downgit.github.io/
+paste link nya download taruh di src kaya tailwind offline ana
