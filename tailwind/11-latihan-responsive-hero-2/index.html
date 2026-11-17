@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../1-tailwind-offline/src/output.css">
+    <link rel="stylesheet" href="../1-tailwind-offline/src/output.css" />
     <link rel="preconnect" href="https://googleapis.com" />
     <link rel="preconnect" href="https://gstatic.com" crossorigin />
     <link
@@ -20,19 +20,22 @@
     </style>
   </head>
 
-  <body class="h-screen bg-[#030923]">
+  <body class="relative h-screen bg-[#030923]">
     <!-- HEADER -->
     <header
       class="mx-auto fixed w-full h-fit lg:h-18.25 mt-[clamp(29px,19.2407px+2.4833vw,55px)]"
     >
       <!-- CUSTOM CONTAINER -->
-      <div class="px-8.5 max-w-[calc(1440+34px-134px)] relative h-full">
+      <!-- <div class="px-8.5 max-w-[calc(1440+34px-134px)] relative h-full">  -->
+      <div class="px-8.5 relative h-full">
         <!-- CAPSULE WRAPPER -->
         <div
           class="capsule-wapper lg:bg-white/30 transition duration-300 rounded-full w-full h-full flex justify-between items-center"
         >
           <!-- HEADER TITLE -->
-          <h2 class="lg:ml-13 transition-[margin-left] duration-800 italic text-[clamp(18px,13.4957px+1.1461vw,30px)] text-white font-bold">
+          <h2
+            class="lg:ml-13 transition-[margin-left] duration-800 italic text-[clamp(18px,13.4957px+1.1461vw,30px)] text-white font-bold"
+          >
             <span class="text-[#505dff]">O</span>BJECTOR
           </h2>
 
@@ -64,7 +67,7 @@
             class="mr-2.5 hidden lg:flex font-semibold text-[20px] h-13.75 absolute translate-x-full rounded-full items-center justify-center right-0 lg:translate-x-0 lg:static button top-[calc(100%+208px)] w-[calc(100%-2*16px)] lg:w-40 bg-white"
             href="#contact"
             >SIGN UP</a
-          > 
+          >
 
           <!-- HAMBURGER BUTTON -->
           <button class="lg:hidden focus:outline-none w-5.25 h-2.75">
@@ -79,18 +82,28 @@
         </div>
       </div>
     </header>
-    <!-- HERO --> 
+
+    <!-- HERO -->
     <section class="h-[clamp(881px,840.4613px+10.3152vw,989px)]">
       <!-- HEADER TEXT -->
       <div class="text-white text-center pt-35 flex flex-col space-y-[-18px]">
         <p class="font-semibold text-[18px]">CREATE 3D AI GENERATED</p>
-        <h1 class="font-semibold text-[87px]">OBJECT</h1> 
+        <h1 class="font-semibold text-[87px]">OBJECT</h1>
       </div>
-      <!-- IMG CONTAINER-->  
-      <!-- <div class="bg-red-500/ h-85.75 relative w-full">                 -->
-        <img class="absolute top-68.25 left-1/2 top-1/2 translate-y-[-50%] translate-x-[-50%]" src="./assets/images/effect.png" alt="effect">
-        <img class="absolute top-70.75 size-85.75 left-1/2 translate-x-[-50%]" src="./assets/images/object.png" alt="object">
+
+      <!-- IMG CONTAINER-->
+      <img
+        class="absolute w-full z-30 top-110 left-1/2 translate-y-[-50%] translate-x-[-50%]"
+        src="./assets/images/effect-mobile.png"
+        alt="effect"
+      />  
+      <img
+        class="absolute top-70.75 size-85.75 left-1/2 translate-x-[-50%]"
+        src="./assets/images/object.png"
+        alt="object"
+      />
       <!-- </div>   -->
+
       <!-- CONTENT TEXT -->
       <div class=""></div>
     </section>
