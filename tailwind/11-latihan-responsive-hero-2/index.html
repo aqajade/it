@@ -23,7 +23,7 @@
   <body class="h-screen bg-[#030923]">
     <!-- HEADER -->
     <header
-      class="mx-auto sticky w-full h-fit lg:h-18.25 mt-[clamp(29px,19.2407px+2.4833vw,55px)]"
+      class="mx-auto fixed w-full h-fit lg:h-18.25 mt-[clamp(29px,19.2407px+2.4833vw,55px)]"
     >
       <!-- CUSTOM CONTAINER -->
       <div class="px-8.5 max-w-[calc(1440+34px-134px)] relative h-full">
@@ -79,11 +79,20 @@
         </div>
       </div>
     </header>
-    <!-- HERO -->
+    <!-- HERO --> 
     <section class="h-[clamp(881px,840.4613px+10.3152vw,989px)]">
-      <div class="header-text"></div>
-      <img src="" alt="">
-      <div class="content-text"></div>
+      <!-- HEADER TEXT -->
+      <div class="text-white text-center pt-35 flex flex-col">
+        <p class="font-semibold text-[18px]">CREATE 3D AI GENERATED</p>
+        <h1 class="font-semibold text-[87px]">OBJECT</h1> 
+      </div>
+      <!-- IMG CONTAINER-->  
+      <div class="bg-red-500 relative"> 
+        <img class="size-[343px] mx-auto" src="./assets/images/object.png" alt="object">
+        <img src="./" alt="">
+      </div>
+      <!-- CONTENT TEXT -->
+      <div class=""></div>
     </section>
   </body>
 </html>

@@ -1,0 +1,57 @@
+*01 — PERSEGI PANJANG 20 Poin*
+
+Sebuah ruang kelas di Rumah IT memiliki panjang 12 meter dan lebar 8 meter. 
+
+Kak Arya ingin mengetahui luas lantai ruang kelas tersebut untuk merencanakan pemasangan karpet.
+
+Pertanyaan: 
+
+Berapakah luas seluruh lantai ruang kelas tersebut dalam satuan meter persegi (m²)?
+
+L = 12 * 8 = 96
+
+*02 — LUAS PERSEGI 20 Poin*
+
+Zaid memiliki sebuah papan belajar berbentuk persegi. Setiap sisi papan tersebut memiliki panjang 90 cm. Zaid ingin melapisi seluruh permukaan papan dengan kertas berwarna.
+
+Pertanyaan: 
+
+Berapakah luas kertas yang dibutuhkan Zaid untuk menutupi seluruh permukaan papan tersebut dalam satuan cm²?
+
+L = 90 x 90 = 8100
+
+*03 — LUAS SEGITIGA 20 Poin*
+
+Rafa sedang membuat sebuah hiasan dinding berbentuk segitiga untuk ruang belajar. Hiasan tersebut memiliki panjang alas 16 cm dan tinggi tegak lurus 12 cm.
+
+Pertanyaan: 
+
+Berapakah luas permukaan hiasan berbentuk segitiga yang dibuat Rafa dalam satuan cm²?
+
+L = (a.t)/2 
+atau 
+L = 1/2 x 16 x 12 = 8 * 12 = 96
+
+*04 — LUAS LINGKARAN 20 Poin*
+
+Athaya ingin membuat alas meja berbentuk lingkaran dari bahan kain. Meja tersebut memiliki jari-jari 21 cm. Athaya harus menghitung luas permukaan meja agar dapat memotong kain dengan ukuran yang tepat.
+
+Gunakan nilai π = 22/7.
+r = radius = jari-jari
+L = 22/7 x r^2
+L = 22/7 x r x r
+L = 22/7 x 21 x 21 = 1386
+
+15.7
+
+Pertanyaan: 
+
+Berapakah luas kain yang diperlukan Athaya untuk menutupi seluruh permukaan meja dalam satuan cm²?
+
+*05 — LUAS TRAPESIUM 20 Poin*
+
+Zivano sedang membuat sebuah papan dekorasi berbentuk trapesium untuk kegiatan sekolah. Papan tersebut memiliki dua sisi sejajar dengan panjang masing-masing 18 cm dan 30 cm. Jarak tegak lurus antara kedua sisi sejajar tersebut adalah 15 cm.
+
+Pertanyaan: 
+
+Berapakah luas papan dekorasi berbentuk trapesium yang dibuat Zivano dalam satuan cm²?
