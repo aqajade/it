@@ -32,6 +32,9 @@
         )
         // u/ membuat overlay muncul
         menuOverlay.classList.remove("opacity-0","invisible")
+        // u/ kepedulian tunanetra
+        toggleMenu.setAttribute("aria-expanded","true")
+        toggleMenu.setAttribute("aria-label","close menu")
       }
 
       // function u/ menutup mobile menu
@@ -42,9 +45,12 @@
         )
         // u/ membuat overlay ilang
         menuOverlay.classList.add("opacity-0","invisible")
+        // u/ kepedulian tunanetra
+        toggleMenu.setAttribute("aria-expanded","false")
+        toggleMenu.setAttribute("aria-label","open menu")
       }
 
-      // event list
+      // pemicu interaksi klik
       toggleMenu.addEventListener("click",()=>{
         const isOpen = toggleMenu.getAttribute("aria-expanded") === "true"
 
