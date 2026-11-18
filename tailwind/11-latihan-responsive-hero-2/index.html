@@ -50,10 +50,24 @@
         toggleMenu.setAttribute("aria-label","open menu")
       }
 
-      // pemicu interaksi klik
+      // pemicu interaksi hamburger
       toggleMenu.addEventListener("click",()=>{
         const isOpen = toggleMenu.getAttribute("aria-expanded") === "true"
+        // kalau mobile menu kebuka dan kita klik hamburger menu akan ketutup
+        // else - tetapi kalau menu nya ora kebuka kita klik hamburger maka menu kebuka
+        if (isOpen) {
+          closeMenu()
+        } else {
+          openMenu()
+        }
+      })
 
+      // pemicu interaksi overlay biar ketika overlay di klik menu ketutup
+      menuOverlay.addEventListener("click",closeMenu)
+
+      // pemicu interaksi list di navbar biar ketika di klik menu ketutup 
+      mobileMenu.querySelectorAll("a").forEach((link)=>{
+        link.addEventListener("click",closeMenu)
       })
 
     </script>
