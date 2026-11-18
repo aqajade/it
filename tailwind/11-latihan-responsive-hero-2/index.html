@@ -18,9 +18,17 @@
         --font-sans: "Inter", sans-serif;
       }
     </style> 
+    <script></script>
   </head>
-
+  <!-- 
+  Casing dalam pemrograman:
+  camelCase: depanKecilGantiKataDepannyaKapital (js/ts)
+  kebab-case: kata-dipisah-garis-strip (python)
+  PascalCase: DepanGedeGantiKataJugaGede (komponen nextjs)
+  -->
   <body class="relative h-screen bg-[#030923]">
+    <!-- OVERLAY -->
+    <div id="menuOverlay" class="fixed z-10 bg-[#030923] opacity-0 invisible transition duration-300 lg:opacity-0"></div>
     <!-- HEADER -->
     <header
       class="mx-auto fixed w-full h-fit lg:h-18.25 mt-[clamp(29px,19.2407px+2.4833vw,55px)]"
@@ -40,6 +48,7 @@
 
           <!-- NAV MENU -->
           <nav
+            id="mobileMenu"
             class="hidden lg:flex translate-x-full lg:translate-x-0 right-0 lg:static lg:w-fit absolute top-[calc(100%+16px)] w-[calc(100%-2*16px)] h-fit"
           >
             <ul class="flex flex-col lg:flex-row gap-9.75 text-white">
@@ -69,7 +78,7 @@
           >
 
           <!-- HAMBURGER BUTTON -->
-          <button class="lg:hidden focus:outline-none w-5.25 h-2.75">
+          <button id="toggleMenu" class="lg:hidden focus:outline-none w-5.25 h-2.75">
             <img
               id="toggleMenu"
               class="lg:hidden"
