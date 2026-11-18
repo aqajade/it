@@ -18,7 +18,39 @@
         --font-sans: "Inter", sans-serif;
       }
     </style> 
-    <script></script>
+    <script>
+      // selektor element
+      const toggleMenu = document.getElementById("toggleMenu")
+      const mobileMenu = document.querySelector("#mobileMenu")
+      const menuOverlay = document.querySelector("#mobileMenu")
+
+      // function u/ membuka mobile menu
+      function openMenu(){
+        // sintaks u/ membuang class yg ada di elemen yg kita mau
+        mobileMenu.classList.remove(
+          "opacity-0", "invisible", "translate-x-full"
+        )
+        // u/ membuat overlay muncul
+        menuOverlay.classList.remove("opacity-0","invisible")
+      }
+
+      // function u/ menutup mobile menu
+      function closeMenu(){
+        // sintaks u/ menambah class yg ada di elemen yg kita mau
+        mobileMenu.classList.add(
+          "opacity-0", "invisible", "translate-x-full"
+        )
+        // u/ membuat overlay ilang
+        menuOverlay.classList.add("opacity-0","invisible")
+      }
+
+      // event list
+      toggleMenu.addEventListener("click",()=>{
+        const isOpen = toggleMenu.getAttribute("aria-expanded") === "true"
+
+      })
+
+    </script>
   </head>
   <!-- 
   Casing dalam pemrograman:
