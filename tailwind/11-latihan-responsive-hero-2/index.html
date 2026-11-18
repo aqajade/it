@@ -18,59 +18,110 @@
         --font-sans: "Inter", sans-serif;
       }
     </style> 
-    <script>
-      // selektor element
-      const toggleMenu = document.getElementById("toggleMenu")
-      const mobileMenu = document.querySelector("#mobileMenu")
-      const menuOverlay = document.querySelector("#mobileMenu")
 
-      // function u/ membuka mobile menu
-      function openMenu(){
-        // sintaks u/ membuang class yg ada di elemen yg kita mau
-        mobileMenu.classList.remove(
-          "opacity-0", "invisible", "translate-x-full"
-        )
-        // u/ membuat overlay muncul
-        menuOverlay.classList.remove("opacity-0","invisible")
-        // u/ kepedulian tunanetra
-        toggleMenu.setAttribute("aria-expanded","true")
-        toggleMenu.setAttribute("aria-label","close menu")
-      }
+<script type="module">
+  console.log("1. SCRIPT BERHASIL DIJALANKAN");
 
-      // function u/ menutup mobile menu
-      function closeMenu(){
-        // sintaks u/ menambah class yg ada di elemen yg kita mau
-        mobileMenu.classList.add(
-          "opacity-0", "invisible", "translate-x-full"
-        )
-        // u/ membuat overlay ilang
-        menuOverlay.classList.add("opacity-0","invisible")
-        // u/ kepedulian tunanetra
-        toggleMenu.setAttribute("aria-expanded","false")
-        toggleMenu.setAttribute("aria-label","open menu")
-      }
+  // SELEKTOR ELEMENT
+  const toggleMenu = document.getElementById("toggleMenu");
+  const mobileMenu = document.querySelector("#mobileMenu");
+  const menuOverlay = document.querySelector("#menuOverlay");
 
-      // pemicu interaksi hamburger
-      toggleMenu.addEventListener("click",()=>{
-        const isOpen = toggleMenu.getAttribute("aria-expanded") === "true"
-        // kalau mobile menu kebuka dan kita klik hamburger menu akan ketutup
-        // else - tetapi kalau menu nya ora kebuka kita klik hamburger maka menu kebuka
-        if (isOpen) {
-          closeMenu()
-        } else {
-          openMenu()
-        }
-      })
+  console.log("2. HASIL SELECTOR:", {
+    toggleMenu,
+    mobileMenu,
+    menuOverlay
+  });
 
-      // pemicu interaksi overlay biar ketika overlay di klik menu ketutup
-      menuOverlay.addEventListener("click",closeMenu)
+  // CEK APAKAH ELEMENT DITEMUKAN
+  if (!toggleMenu || !mobileMenu || !menuOverlay) {
+    console.error("ERROR: Ada element yang tidak ditemukan!");
+  } else {
+    console.log("3. SEMUA ELEMENT BERHASIL DITEMUKAN");
+  }
 
-      // pemicu interaksi list di navbar biar ketika di klik menu ketutup 
-      mobileMenu.querySelectorAll("a").forEach((link)=>{
-        link.addEventListener("click",closeMenu)
-      })
+  // FUNCTION OPEN MENU
+  function openMenu() {
+    console.log("OPEN MENU DIPANGGIL");
 
-    </script>
+    mobileMenu.classList.remove(
+      "opacity-0",
+      "invisible",
+      "translate-x-full"
+    );
+
+    menuOverlay.classList.remove("opacity-0", "invisible");
+
+    toggleMenu.setAttribute("aria-expanded", "true");
+    toggleMenu.setAttribute("aria-label", "close menu");
+
+    console.log("OPEN MENU SELESAI");
+    console.log("NAV CLASS:", mobileMenu.className);
+    console.log("OVERLAY CLASS:", menuOverlay.className);
+  }
+
+  // FUNCTION CLOSE MENU
+  function closeMenu() {
+    console.log("CLOSE MENU DIPANGGIL");
+
+    mobileMenu.classList.add(
+      "opacity-0",
+      "invisible",
+      "translate-x-full"
+    );
+
+    menuOverlay.classList.add("opacity-0", "invisible");
+
+    toggleMenu.setAttribute("aria-expanded", "false");
+    toggleMenu.setAttribute("aria-label", "open menu");
+
+    console.log("CLOSE MENU SELESAI");
+  }
+
+  // EVENT HAMBURGER
+  toggleMenu.addEventListener("click", () => {
+    console.log("4. HAMBURGER BERHASIL DIKLIK");
+
+    const isOpen =
+      toggleMenu.getAttribute("aria-expanded") === "true";
+
+    console.log("STATUS MENU:", isOpen ? "OPEN" : "CLOSED");
+
+    if (isOpen) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
+  console.log("5. EVENT LISTENER HAMBURGER TERPASANG");
+
+  // EVENT OVERLAY
+  menuOverlay.addEventListener("click", () => {
+    console.log("OVERLAY BERHASIL DIKLIK");
+    closeMenu();
+  });
+
+  // EVENT NAV LINK
+  mobileMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      console.log("NAV LINK DIKLIK:", link.textContent);
+      closeMenu();
+    });
+  });
+
+  // EVENT RESIZE
+  window.addEventListener("resize", () => {
+    console.log("WINDOW RESIZE:", window.innerWidth);
+
+    if (window.innerWidth >= 1024) {
+      closeMenu();
+    }
+  });
+
+  console.log("6. SEMUA EVENT LISTENER BERHASIL DIPASANG");
+</script>
+
   </head>
   <!-- 
   Casing dalam pemrograman:
@@ -80,7 +131,7 @@
   -->
   <body class="relative h-screen bg-[#030923]">
     <!-- OVERLAY -->
-    <div id="menuOverlay" class="fixed z-10 bg-[#030923] opacity-0 invisible transition duration-300 lg:opacity-0"></div>
+    <div id="menuOverlay" class="fixed inset-0 z-40 bg-[#030923] opacity-0 invisible transition duration-300 lg:opacity-0"></div>
     <!-- HEADER -->
     <header
       class="mx-auto fixed w-full h-fit lg:h-18.25 mt-[clamp(29px,19.2407px+2.4833vw,55px)]"
@@ -101,7 +152,7 @@
           <!-- NAV MENU -->
           <nav
             id="mobileMenu"
-            class="hidden lg:flex translate-x-full lg:translate-x-0 right-0 lg:static lg:w-fit absolute top-[calc(100%+16px)] w-[calc(100%-2*16px)] h-fit"
+            class="z-60 opacity-0 invisible transition lg:opacity-100 lg:visible lg:flex translate-x-full lg:translate-x-0 right-0 lg:static lg:w-fit absolute top-[calc(100%+16px)] w-[calc(100%-2*16px)] h-fit"
           >
             <ul class="flex flex-col lg:flex-row gap-9.75 text-white">
               <li>
@@ -132,7 +183,6 @@
           <!-- HAMBURGER BUTTON -->
           <button id="toggleMenu" class="lg:hidden focus:outline-none w-5.25 h-2.75">
             <img
-              id="toggleMenu"
               class="lg:hidden"
               aria-label="Open menu"
               src="./assets/icons/hamburger.png"
