@@ -1,0 +1,1 @@
+PR buatlah program ketika nilai nya lebih dari 75 ada elemen p tulisannya berubah jadi "alhamdulillah nice", jika = 75 berubah jadi "alhamdulillah pas" , jika <75 berubah jadi "semangat belajarnya"
