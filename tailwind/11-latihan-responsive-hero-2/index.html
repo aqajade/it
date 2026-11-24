@@ -20,72 +20,49 @@
     </style> 
 
 <script type="module">
-  console.log("1. SCRIPT BERHASIL DIJALANKAN");
-
   // SELEKTOR ELEMENT
   const toggleMenu = document.getElementById("toggleMenu");
   const mobileMenu = document.querySelector("#mobileMenu");
   const menuOverlay = document.querySelector("#menuOverlay");
 
-  console.log("2. HASIL SELECTOR:", {
-    toggleMenu,
-    mobileMenu,
-    menuOverlay
-  });
-
-  // CEK APAKAH ELEMENT DITEMUKAN
-  if (!toggleMenu || !mobileMenu || !menuOverlay) {
-    console.error("ERROR: Ada element yang tidak ditemukan!");
-  } else {
-    console.log("3. SEMUA ELEMENT BERHASIL DITEMUKAN");
-  }
-
   // FUNCTION OPEN MENU
   function openMenu() {
-    console.log("OPEN MENU DIPANGGIL");
-
     mobileMenu.classList.remove(
       "opacity-0",
-      "invisible",
+      "pointer-events-none",
       "translate-x-full"
     );
 
-    menuOverlay.classList.remove("opacity-0", "invisible");
+    menuOverlay.classList.remove("opacity-0", "pointer-events-none");
 
     toggleMenu.setAttribute("aria-expanded", "true");
     toggleMenu.setAttribute("aria-label", "close menu");
 
-    console.log("OPEN MENU SELESAI");
-    console.log("NAV CLASS:", mobileMenu.className);
-    console.log("OVERLAY CLASS:", menuOverlay.className);
+
   }
 
   // FUNCTION CLOSE MENU
   function closeMenu() {
-    console.log("CLOSE MENU DIPANGGIL");
 
     mobileMenu.classList.add(
       "opacity-0",
-      "invisible",
+      "pointer-events-none",
       "translate-x-full"
     );
 
-    menuOverlay.classList.add("opacity-0", "invisible");
+    menuOverlay.classList.add("opacity-0", "pointer-events-none");
 
     toggleMenu.setAttribute("aria-expanded", "false");
     toggleMenu.setAttribute("aria-label", "open menu");
 
-    console.log("CLOSE MENU SELESAI");
   }
 
   // EVENT HAMBURGER
   toggleMenu.addEventListener("click", () => {
-    console.log("4. HAMBURGER BERHASIL DIKLIK");
 
     const isOpen =
       toggleMenu.getAttribute("aria-expanded") === "true";
 
-    console.log("STATUS MENU:", isOpen ? "OPEN" : "CLOSED");
 
     if (isOpen) {
       closeMenu();
@@ -94,32 +71,27 @@
     }
   });
 
-  console.log("5. EVENT LISTENER HAMBURGER TERPASANG");
 
   // EVENT OVERLAY
   menuOverlay.addEventListener("click", () => {
-    console.log("OVERLAY BERHASIL DIKLIK");
     closeMenu();
   });
 
   // EVENT NAV LINK
   mobileMenu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
-      console.log("NAV LINK DIKLIK:", link.textContent);
       closeMenu();
     });
   });
 
   // EVENT RESIZE
   window.addEventListener("resize", () => {
-    console.log("WINDOW RESIZE:", window.innerWidth);
 
     if (window.innerWidth >= 1024) {
       closeMenu();
     }
   });
 
-  console.log("6. SEMUA EVENT LISTENER BERHASIL DIPASANG");
 </script>
 
   </head>
@@ -131,7 +103,7 @@
   -->
   <body class="relative h-screen bg-[#030923]">
     <!-- OVERLAY -->
-    <div id="menuOverlay" class="fixed inset-0 z-40 bg-[#030923] opacity-0 invisible transition duration-300 lg:opacity-0"></div>
+    <div id="menuOverlay" class="fixed inset-0 z-40 bg-[#030923] opacity-0 transition duration-300 lg:opacity-0"></div>
     <!-- HEADER -->
     <header
       class="z-50 mx-auto fixed w-full h-fit lg:h-18.25 mt-[clamp(29px,19.2407px+2.4833vw,55px)]"
@@ -152,7 +124,7 @@
           <!-- NAV MENU -->
           <nav
             id="mobileMenu"
-            class="z-60 opacity-0 invisible transition lg:opacity-100 lg:visible lg:flex translate-x-full lg:translate-x-0 right-0 lg:static lg:w-fit absolute top-[calc(100%+16px)] w-[calc(100%-2*16px)] h-fit"
+            class="z-60 opacity-0 transition duration 300 lg:opacity-100 lg:visible lg:flex translate-x-full lg:translate-x-0 right-0 lg:static lg:w-fit absolute top-[calc(100%+16px)] w-[calc(100%-2*16px)] h-fit"
           >
             <ul class="flex flex-col lg:flex-row gap-9.75 text-white">
               <li>

@@ -42,16 +42,30 @@ L = 22/7 x r^2
 L = 22/7 x r x r
 L = 22/7 x 21 x 21 = 1386
 
+d = diameter
+k = π.d = π.2.r
+k = 22/7 * 2 * 21 = 22/7 * 42
+
+hitung K & L jika r = 42
+
+
 15.7
 
 Pertanyaan: 
 
 Berapakah luas kain yang diperlukan Athaya untuk menutupi seluruh permukaan meja dalam satuan cm²?
 
+
+
+
 *05 — LUAS TRAPESIUM 20 Poin*
 
 Zivano sedang membuat sebuah papan dekorasi berbentuk trapesium untuk kegiatan sekolah. Papan tersebut memiliki dua sisi sejajar dengan panjang masing-masing 18 cm dan 30 cm. Jarak tegak lurus antara kedua sisi sejajar tersebut adalah 15 cm.
 
 Pertanyaan: 
-
 Berapakah luas papan dekorasi berbentuk trapesium yang dibuat Zivano dalam satuan cm²?
+
+L = [ (a+b).t ] : 2
+L = [ (18+30).15 ] : 2
+L = [ (48).15 ] : 2
+
