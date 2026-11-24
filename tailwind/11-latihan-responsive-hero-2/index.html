@@ -32,38 +32,27 @@
       "pointer-events-none",
       "translate-x-full"
     );
-
     menuOverlay.classList.remove("opacity-0", "pointer-events-none");
-
     toggleMenu.setAttribute("aria-expanded", "true");
     toggleMenu.setAttribute("aria-label", "close menu");
-
-
   }
 
   // FUNCTION CLOSE MENU
   function closeMenu() {
-
     mobileMenu.classList.add(
       "opacity-0",
       "pointer-events-none",
       "translate-x-full"
     );
-
     menuOverlay.classList.add("opacity-0", "pointer-events-none");
-
     toggleMenu.setAttribute("aria-expanded", "false");
     toggleMenu.setAttribute("aria-label", "open menu");
-
   }
 
   // EVENT HAMBURGER
   toggleMenu.addEventListener("click", () => {
-
     const isOpen =
       toggleMenu.getAttribute("aria-expanded") === "true";
-
-
     if (isOpen) {
       closeMenu();
     } else {

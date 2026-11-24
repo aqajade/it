@@ -1,0 +1,9 @@
+buatlah 2 tombol dan sebuah teks
+
+tombol pertama dengan onClick di elemen HTML nya
+tombol kedua dengan eventListener
+
+tombol pertama u/ memperbesar ukuran teks
+tombol kedua u/ memperkecil teks
+
+pr fathan pahamilah ctrl+D
