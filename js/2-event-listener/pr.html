@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module">
+    const elemenTeks = document.getElementById('teks');
+    const trackerPx = document.getElementById('tracker-px');
+    let ukuranSaatIni = 16; // Ukuran awal dalam pixel
+    // Tetap wajib pakai window. agar terbaca oleh onclick di HTML
+    window.perbesarTeks = function() {
+      ukuranSaatIni += 2;
+      elemenTeks.style.fontSize = ukuranSaatIni + 'px';
+      trackerPx.textContent = ukuranSaatIni;
+    }
+    // Menambahkan eventListener untuk tombol kedua
+    const tombolPerkecil = document.getElementById('tombol-perkecil');
+    tombolPerkecil.addEventListener('click', function() {
+      if (ukuranSaatIni > 8) {
+        ukuranSaatIni -= 2;
+        elemenTeks.style.fontSize = ukuranSaatIni + 'px';
+        trackerPx.textContent = ukuranSaatIni;
+      }
+    });
+  </script> 
+</head>
+<body>
+    <!-- Teks yang akan diubah ukurannya -->
+    <p id="teks" style="font-size: 16px;">Halo, ini adalah teks yang ukurannya bisa diubah.</p>
+    <!-- Tombol pertama menggunakan atribut onclick di elemen HTML -->
+    <button onclick="perbesarTeks()">Perbesar Teks (+)</button>
+    <!-- Tombol kedua yang akan dipasangi eventListener di JavaScript -->
+    <button id="tombol-perkecil">Perkecil Teks (-)</button>
+    <p>Ukuran teks saat ini: <strong id="tracker-px">16</strong>px</p>
+</body>
+</html>

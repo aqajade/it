@@ -1,0 +1,1 @@
+buat onClick dan eventListener untuk menambah dan mengurangi tinggi kotak

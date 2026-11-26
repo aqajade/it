@@ -1,25 +1,41 @@
+<!--  
+ekstension:
+auto rename tag 
+vscode-icons
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- camelCase , awalKataKecilSetelahnyaBesar -->
   <script type="module">
-    console.log("ali adeknya alkha pengusir laron")
-    document.getElementById("nama").innerHTML="fathan kemaren ga enak badan"
-    document.querySelector("#alamat").innerHTML="mail mendapatkan pesan yang dingin sejuk adem seger dan lega"
-    const nilai = 7
-    if(nilai>=75){
-      // console.log 
-      document.getElementById("status").innerHTML="lulus"
-    }else{
-      document.getElementById("status").innerHTML="gagal"
+    // baris 10 u/ selektor biar kalau mau di apa apain tujuannya ke teksTarget
+    const teksTarget = document.querySelector("#teksTarget")
+    const ukuranTeks = document.getElementById("ukuranTeks")
+    const pengecil = document.querySelector("#pengecil")
+    let ukuranTeksSekarang = 16
+    window.perbesarTeks = function(){
+      // increment adalah menambah (+=)
+      ukuranTeksSekarang += 1
+      teksTarget.style.fontSize = ukuranTeksSekarang+"px"
+      ukuranTeks.textContent = ukuranTeksSekarang
     }
-  </script> 
+    pengecil.addEventListener("click",function(){
+      if(ukuranTeksSekarang>8){
+        // decrement adalah mengurangi (-=)
+        ukuranTeksSekarang -= 1
+        teksTarget.style.fontSize = ukuranTeksSekarang+"px"
+        ukuranTeks.textContent = ukuranTeksSekarang
+      }
+    })
+  </script>
 </head>
 <body>
-  <p id="nama">fsdfsfjfjfjsdf</p>
-  <p id="alamat">fsduilafsdfhsfsdfuhasdfsdfsdfhsdfasdfusdfdsafdsafasdfsdaf</p>
-  <p id="status">ljjsdlepojdpogdfgjsdfpogksdpod</p>
+  <h1 id="teksTarget">tulisan ini ukurannya <span id="ukuranTeks">x</span> px</h1>
+  <!-- onclick itu memanggil perintah / fungsi javascript melalui klik -->
+  <button id="pembesar" onclick="perbesarTeks()">pembesar</button>
+  <button id="pengecil">pengecil</button>
 </body>
 </html>
